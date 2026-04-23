@@ -79,7 +79,7 @@ Streptococcus anginosus		  
 Thomasclavelia saccharogumia		  
 [Clostridium] piliforme)
 
-### Signature 2 — Increased in Healthy Controls  
+### Signature 2 — Decreased in IEM Patients  
 (7 taxa from LEfSe; insert your full taxa list here)
 
 *Note:* These signatures include multiple ranks (species, genus, family, order, class).
