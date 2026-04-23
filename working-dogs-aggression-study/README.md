@@ -3,6 +3,9 @@
 ## Full Citation
 Sun N, Xie L, Chao J, Xiu F, Zhai H, Zhou Y, Yu X, Shui Y. (2025). *Study on the correlation between aggressive behavior and gut microbiota and serum serotonin (5-HT) in working dogs*. Veterinary Sciences. 12, 526 DOI: https://doi.org/10.3390/vetsci12060526
 
+## BugSigDB Entry
+🔗 Curated record: https://bugsigdb.org/40559763
+
 ---
 
 ## Study Overview
