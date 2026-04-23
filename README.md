@@ -21,7 +21,6 @@ Each folder includes a `README.md` file with:
 - Summary of the study  
 - Extracted microbial signatures  
 - Details of the curation process  
-- Any relevant notes  
 
 ## 🧩 Purpose of This Repository
 
