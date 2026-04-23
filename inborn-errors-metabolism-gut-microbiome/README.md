@@ -3,6 +3,10 @@
 ## Full Citation
  Gokalp S., Dinleyici E.C., Muluk C., Inci A., Aktas E., Okur I., Ezgu F., Tumer L., (2026). *Alterations in gut microbiota composition in children with methylmalonic acidemia, propionic acidemia, and maple syrup urine disease.* European journal of clinical nutrition, DOI: https://doi.org/10.1038/s41430-026-01720-7*
 
+
+## BugSigDB Entry
+🔗 Curated record: https://bugsigdb.org/41872585
+
 ---
 
 ## Study Overview
