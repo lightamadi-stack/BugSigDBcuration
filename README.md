@@ -23,7 +23,6 @@ I contribute by:
 
 - Curating microbial signatures from published research articles
 - Interpreting statistical outputs (LEfSe, Wilcoxon, Mann–Whitney, DESeq2, Random Forest, Poisson, ANOVA, Songbird analysis, SparCc, etc.)
-- Poisson: raw counts
 - Identifying valid taxa using the NCBI Taxonomy Browser
 - Applying BugSigDB curation rules to ensure consistency and accuracy
 - Documenting study design, matching, confounders, and significant taxa
