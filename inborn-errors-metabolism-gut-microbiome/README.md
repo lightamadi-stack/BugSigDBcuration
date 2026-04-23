@@ -67,20 +67,10 @@ Curated as **part of the experiment**, not a separate experiment.
 ## Differentially Abundant Taxa
 
 ### Signature 1 — Increased in IEM Patients  
-(18 taxa from LEfSe; *Acinetobacter lwoffii*, *Alcaligenaceae*, *Betaproteobacteria*, *Burkholderiales*, *Castellaniella*, *Castellaniella defragrans*, *Enterobacterales*, *Enterobacteriaceae*, 		  
-Lactobacillus iners		  
-Providencia		  
-Providencia stuartii		  
-Pseudoalteromonas piscicida		  
-Sphingobacteriaceae		  
-Sphingobacteriales		  
-Sphingobacteriia		  
-Streptococcus anginosus		  
-Thomasclavelia saccharogumia		  
-[Clostridium] piliforme)
+(18 taxa from LEfSe; *Acinetobacter lwoffii*, *Alcaligenaceae*, *Betaproteobacteria*, *Burkholderiales*, *Castellaniella*, *Castellaniella defragrans*, *Enterobacterales*, *Enterobacteriaceae*, *Lactobacillus iners*, *Providencia*, *Providencia stuartii*, *Pseudoalteromonas piscicida*, *Sphingobacteriaceae*, *Sphingobacteriales*, *Sphingobacteriia*, *Streptococcus anginosus*, *Thomasclavelia saccharogumia*, *[Clostridium] piliforme*)
 
 ### Signature 2 — Decreased in IEM Patients  
-(7 taxa from LEfSe; insert your full taxa list here)
+(7 taxa from LEfSe; *Coprobacillus*, *Coprobacillus cateniformis*, *Faecalibacterium*, *Faecalibacterium prausnitzii*, *Hungatella hathewayi*, *Thomasclavelia spiroformis*, *Erysipelotrichaceae Clostridium*)
 
 *Note:* These signatures include multiple ranks (species, genus, family, order, class).
 
@@ -96,8 +86,6 @@ Thomasclavelia saccharogumia		  
 - Preserved one unresolvable GreenGenes label:  
   - **g_Erysipelotrichaceae_Clostridium**  
   Following BugSigDB policy, it was entered exactly as reported since no NCBI match exists.
-- Corrected a typographical error:  
-  - *Faecalibacterium prausnitzi* → **Faecalibacterium prausnitzii**
 
 ---
 
