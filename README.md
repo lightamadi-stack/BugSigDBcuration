@@ -36,9 +36,10 @@ Each study folder represents one curated paper and includes a README.md with:
 - Alpha diversity results
 - NCBI Taxonomy IDs
 - Notes on curation decisions and exclusions
+
 This makes each curation fully reproducible and verifiable.
 
-All curations follow the official BugSigDB curation policy. 
+*All curations follow the official BugSigDB curation policy.* 
 
 ## 📂 How to Navigate This Portfolio
 
@@ -47,7 +48,7 @@ Open each folder and view the README.md file to explore the curated taxa, the de
 - `/preeclampsia_gut_microbiome/`
 - `/inborn-errors-metabolism-gut-microbiome/`
 - `/working-dogs-aggression-study/`
-- (add all others...)
+- (etc)
 
 ---
 
