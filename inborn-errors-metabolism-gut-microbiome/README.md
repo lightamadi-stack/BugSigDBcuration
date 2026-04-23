@@ -15,7 +15,7 @@ This study examined gut microbiota composition in children diagnosed with intoxi
 - Propionic acidemia (PA)
 - Maple syrup urine disease (MSUD)
 
-These were compared with age-matched healthy controls. The study is notable for being the first to characterize gut microbiota in MMA and MSUD patients.
+These were compared with age-matched healthy controls. **The study is notable for being the first to characterize gut microbiota in MMA and MSUD patients**.
 
 ---
 
