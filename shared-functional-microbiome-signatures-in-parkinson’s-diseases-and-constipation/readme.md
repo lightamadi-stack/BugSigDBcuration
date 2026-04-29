@@ -25,6 +25,7 @@ For BugSigDB curation, only analysable, taxon-level, group-based results were ex
 - Design: **Case–control**
 - Host species: Homo sapiens
 - Cases: Individuals diagnosed with Parkinson’s disease
+- Body site:	Feces
 - Groups compared:
   * PD patients vs. healthy controls (microbiome + immune correlations)
   * IBS-C vs. healthy controls and vs. PD (beta diversity and functional pathways only — no taxon-level differential abundance performed for this comparison; therefore not curated)
@@ -39,111 +40,101 @@ For BugSigDB curation, only analysable, taxon-level, group-based results were ex
   - Positive Rho → Increased in symptom-positive group **(Group 1)**
   - Negative Rho → Increased in symptom-negative group **(Group 0)**
 
-**Non-curated sources:**
+**🚫Non-curated sources:**
 - Figure 3C (species-immune marker correlations was assessed and excluded, it it does not represent a group-contrast differential abundance analysis appropriate for BugSigDB.
 - No alpha diversity is recorded for any of the five experiments, as no alpha diversity analysis was conducted for symptom-based within-PD comparisons.
+- Beta diversity was recorded but excluded
 - IBS-C comparisons (no taxon-level differential abundance performed)
-- Non-asterisk taxa | Not significant after BH correction 
+- Non-asterisk taxa | Not significant after BH correction
+- MetaCyc pathway results (Figure 4D)
 
 ---
 
 ### ✔️ Experiment 1: Difficulty Swallowing
-Group 1: Parkinson's disease (PD) patients with difficulty swallowing
-Group 0: Parkinson's disease (PD) patients without difficulty swallowing
+Group 1: Parkinson's disease (PD) patients **with difficulty swallowing**
+Group 0: Parkinson's disease (PD) patients **without difficulty swallowing**
 
-#### Signature 1 — Increased in Group 1
+#### 🦠Signature 1 — Increased in Group 1
 - *Mediterraneibacter gnavus*	
-#### Signature 2 — Decreased in Group 1
+#### 🦠Signature 2 — Decreased in Group 1
 - No significant taxa decreased in Group 1.
 
 ### ✔️ Experiment 2: Vomiting or Nausea
-Group 1: Parkinson's disease (PD) patients with vomiting or nausea
-Group 0: Parkinson's disease (PD) patients without vomiting or nausea
+Group 1: Parkinson's disease (PD) patients **with vomiting or nausea**
+Group 0: Parkinson's disease (PD) patients **without vomiting or nausea**
 
-#### Signature 1 — Increased in Group 1
+#### 🦠Signature 1 — Increased in Group 1
 - *Veillonella atypica*
 - *Allisonella histaminiformans*
 - *Alistipes sp. An31A* etc
-#### Signature 2 — Decreased in Group 1
+#### 🦠Signature 2 — Decreased in Group 1
 - *Intestinimonas massiliensis*
 - *Alistipes finegoldii* etc
 
 ### ✔️ Experiment 3: Constipation (Last Month)
-Group 1: Parkinson's disease (PD) patients with constipation within the last month
-Group 0: Parkinson's disease (PD) patients without constipation within the last month
+Group 1: Parkinson's disease (PD) patients **with constipation within the last month**
+Group 0: Parkinson's disease (PD) patients **without constipation within the last month**
 
-#### Signature 1 — Increased in Group 1
+#### 🦠Signature 1 — Increased in Group 1
 - *GGB9788_SGB15411* (Unamed taxon)
 - *GGB9637_SGB15111* (Unamed taxon)
-#### Signature 2 — Decreased in Group 1
+#### 🦠Signature 2 — Decreased in Group 1
 - *GGB9818_SGB15459* (Unamed taxon)
 
 ### ✔️ Experiment 4: Incomplete Bowel Emptying
-Group 1: Parkinson's disease (PD) patients with incomplete bowel emptying
-Group 0: Parkinson's disease (PD) patients without incomplete bowel emptying
+Group 1: Parkinson's disease (PD) patients **with incomplete bowel emptying**
+Group 0: Parkinson's disease (PD) patients **without incomplete bowel emptying**
 
-#### Signature 1 — Increased in Group 1
+#### 🦠Signature 1 — Increased in Group 1
 - *Intestinimonas massiliensis*
 - *Alistipes finegoldii*
-#### Signature 2 — Decreased in Group 1
+#### 🦠Signature 2 — Decreased in Group 1
 (Extensive list) includes:
 - *Allisonella histaminiformans*
 - *Phocaeicola coprophilus*
 - *Odoribacter laneus* etc
 
+### ✔️ Experiment 5: Bowel Pattern (Last 12 Months)
+Group 1: Negative correlation in Parkinson's disease (PD) patients with **constipated or alternating bowel pattern** in the last 12 months
+Group 0: Positive correlation in Parkinson's disease (PD) patients with **normal bowel pattern** in the last 12 months
+
+#### 🦠Signature 1 — Increased in Group 1
+- *Pseudoflavonifractor gallinarum*
+- *GGB9788_SGB15411* (Unnamed taxon)
+#### 🦠Signature 2 — Decreased in Group 1
+No significant taxa decreased in Group 1
 
 ---
 
-## Statistical Analyses
-- **LEfSe** (only curatable statistical test)
-- DESeq2 mentioned in methods but **excluded** because no significant taxon-level results were published
+## 📊Statistical Analyses
+- **Spearman Correlation** + **Benjamini–Hochberg False Discovery Rate** correction (BH-FDR) for species-symptom and species-immune analyses etc
+- Data transformation: Total Sum Scaling followed by **Centered Log-Ratio transformation**
 - Significance level: **α = 0.05**
 
 ---
 
-## Data Sources
-- **Included:**  
-  - Figure 4 (LEfSe biomarkers)
-
-- **Excluded (non-curatable):**  
-  - Figures 1–3 (alpha diversity boxplots, relative abundance bar charts)  
-  - No tables or supplementary files with per-taxon statistics  
-
-These figures did not report p-values or statistical tests for specific taxa.
+## 📝 Curation Notes
+- Study type classified as case–control, but curated experiments are within-PD symptom correlations.
+- Each GI symptom column in Figure 3D = one experiment.
+- Asterisk system used as authoritative significance marker due to errors in Supplementary Table S4 p-values.
+- Antibiotic exclusion confirmed (3 months prior).
+- Unnamed SGBs treated according to BugSigDB unresolved-taxon policy. 
 
 ---
 
-## Alpha Diversity
-Curated as **part of the experiment**, not a separate experiment.
 
-- **Chao1:** decreased in IEM patients (p = 0.041)  
-- **Observed OTUs:** decreased in IEM patients (p = 0.047)  
-- **Shannon index:** unchanged (p = 0.184)
+## 🧾 Summary
+This study required non-standard BugSigDB curation due to its absence of case–control taxon-level differential abundance. Instead, all curatable results were species–GI symptom correlations within PD, producing five valid experiments.
+Key takeaways:
+1. Correct identification of non-standard experimental structures
+2. Use of symptom columns as independent experiments
+3. Accurate handling of unnamed SGBs
+4. Detecting supplementary p-value alignment errors
+5. Applying Rho direction rules consistently 
+Hence, this curation adds five unique microbiome–symptom signatures in Parkinson’s disease — a context currently underrepresented in BugSigDB.
 
----
 
-## Differentially Abundant Taxa
 
-### Signature 1 — Increased in IEM Patients  
-(18 taxa from LEfSe; *Acinetobacter lwoffii*, *Alcaligenaceae*, *Betaproteobacteria*, *Burkholderiales*, *Castellaniella*, *Castellaniella defragrans*, *Enterobacterales*, *Enterobacteriaceae*, *Lactobacillus iners*, *Providencia*, *Providencia stuartii*, *Pseudoalteromonas piscicida*, *Sphingobacteriaceae*, *Sphingobacteriales*, *Sphingobacteriia*, *Streptococcus anginosus*, *Thomasclavelia saccharogumia*, *[Clostridium] piliforme*)
-
-### Signature 2 — Decreased in IEM Patients  
-(7 taxa from LEfSe; *Coprobacillus*, *Coprobacillus cateniformis*, *Faecalibacterium*, *Faecalibacterium prausnitzii*, *Hungatella hathewayi*, *Thomasclavelia spiroformis*, *Erysipelotrichaceae Clostridium*)
-
-*Note:* These signatures include multiple ranks (species, genus, family, order, class).
-
----
-
-## Taxonomy Notes
-- Updated legacy phylum names using current NCBI terminology:  
-  - **Pseudomonadota**  
-  - **Bacillota**  
-  - **Bacteroidota**
-- Corrected deprecated species name:  
-  - *Clostridium hathewayi* → **Hungatella hathewayi**
-- Preserved one unresolvable GreenGenes label:  
-  - **g_Erysipelotrichaceae_Clostridium**  
-  Following BugSigDB policy, it was entered exactly as reported since no NCBI match exists.
 
 ---
 
