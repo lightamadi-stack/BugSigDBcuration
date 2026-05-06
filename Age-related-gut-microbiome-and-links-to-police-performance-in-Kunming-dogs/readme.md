@@ -15,102 +15,54 @@ This study investigated how gut microbiome composition and functional pathways v
 
 ## Study Design
 - Design: Cross-sectional observational study, not case-control 
-- Population: Working dogs (n = 56)  
-- Classification: Post-enrollment behavioral grouping using C-BARQ-based assessment  
-- No intervention or follow-up  
+- Population: 48 dogs total (12 per age group, evenly split by sex: 6 male, 6 female per group) 
 
 ---
 
 ## Experiments Curated
 
-### Experiment 1
-- Comparison: Aggressive Dogs vs Non-Aggressive Dogs  
-- Sample size: n = 56  
+### Experiment 1 - 5
+- Comparison: Puppies vs Young; Puppies vs Adult; Puppies vs Elderly dogs; Young vs Adult; Young vs Elderly (fecal microbiota composition)
+- Sample size: 12 per group
+- Statistical method: Wilcoxon rank-sum test
 
-### Experiment 2
-- Comparison: Offensive Aggression Dogs vs Defensive Aggression Dogs  
-- Sample size: n = 35  
+### Experiment 6 (Spearman correlation)
+- Comparison: Positive vs Negative correlation between bacterial species and police performance indicators
+- Statistical method: Spearman correlation
 
 ---
 
 ## Statistical Analyses
-- Welch’s t-test  
-- Random Forest (Mean Decrease in Accuracy - MDA)  
-- Significance threshold: p < 0.05 (study-wide, pre-specified)  
-- No multiple hypothesis testing (MHT) correction applied  
-- No LDA scores reported  
+- Primary tests used for curation: Wilcoxon rank-sum, Spearman correlation for species–performance associations
+- Significance threshold: p < 0.05
+- Multiple testing correction: Bonferroni correction for abundance comparisons
 
 ---
 
 ## Data Sources
-- Figure 4b (phylum level, Experiment 1)  
-- Figure 5b (genus level, Experiment 1)  
-- Figure 8b (genus level, Experiment 2)  
-- Figure 8c (Random Forest, supporting Experiment 2)  
+- Figure S1A and S1B (Experiment 1 - 5)
+- Figure 4D (Experiment 6)
 
 ---
 
 ## Excluded Analyses
 The following were excluded based on BugSigDB curation rules:
-- Shenyang subset analysis (no significant taxa)  
-- Shanghai subset (beta diversity only)  
-- All beta diversity analyses (PCA/PCoA)  
-- Alpha diversity analyses (recorded as metadata only)  
-- Serum 5-HT ELISA results (non-microbial)  
+- Beta diversity analyses (PCoA, ANOSIM)
+- Functional pathway analyses (KEGG, neurotransmitter metabolism)
+- Metabolomic results (neuroactive ligand-receptor interactions)
+- Non-significant taxa
 
 ---
 
-## Differentially Abundant Taxa
+## 🦠 Differentially Abundant Taxa
 
-### Experiment 1
-
-#### Increased Abundance in Aggressive Dogs
-- *Pseudomonadota* (phylum)
-
-#### Decreased Abundanced in Aggressive Dogs
-- *Escherichia-Shigella*  
-- *Erysipelotrichaceae UCG-003*  
-- *Clostridium sensu stricto 1*  
-
----
-
-### Experiment 2
-
-#### Increased Abundance in Offensive Aggression Dogs
-- *Turicibacter*  
-
-#### Decreased Abundance in Offensive Aggression Dogs
-- None (no significant taxa identified; no signature created)
-
----
-
-## Alpha Diversity
-- No significant differences observed across groups  
-- Metrics assessed:
-  - Chao1  
-  - Shannon  
-  - Simpson  
-  - ACE  
-- Source: Table 4 (page 9)  
-
----
-
-## Confounders Considered
-Controlled analytically through PCA and subgroup analyses:
-- Breed  
-- Sex  
-- Geographic location  
-- Diet  
-- Age  
+### See ➤ :[https://bugsigdb.org/41840712]
 
 ---
 
 ## Curation Notes
-- Study design classified as cross-sectional based on sampling strategy and absence of pre-defined case/control recruitment.  
-- Matching reported in the paper applies only to a non-curatable subset and was excluded.  
-- Random Forest results were carefully evaluated:
-  - *Lactobacillus* excluded due to non-significant p-value (p = 0.977)  
-  - *Turicibacter* included due to independent statistical support (p < 0.01)  
+- Antibiotic exclusion time frame: The paper states "no medications administered prior to the trial" — satisfies antibiotic exclusion criteria. No specific washout window was defined; time frame left blank per policy.
+- Policy decisions: Combined all performance indicators into one experiment (Experiment 6) to avoid redundant entries.
 - Only taxa meeting p < 0.05 were curated  
 - Taxa names standardized using NCBI Taxonomy Browser  
 - Signatures created following BugSigDB rules (no empty signatures)  
@@ -118,14 +70,17 @@ Controlled analytically through PCA and subgroup analyses:
 ---
 
 ## Metadata
-- Host: Dog (Canis lupus familiaris)  
-- Condition: Aggressive behavior  
-- Sequencing: 16S rRNA (Illumina MiSeq)  
-- Environment: Veterinary / working dog cohort  
+- Host: Canis lupus familiaris (Kunming dog, Wolf Cyan breed)
+- Disease/Condition: Behavior; Age-related variation (healthy dogs)
+- Environment: Police dog training base, Kunming, China
+- Sequencing platform: Illumina NextSeq 2000 (16S rRNA), Illumina NovaSeq X Plus (metagenomics)
 
 ---
 
 ## Curation Summary
-This curation involved critical evaluation of study design, statistical methodologies, and microbiome data interpretation. It required distinguishing between machine learning outputs and statistically validated results, correctly identifying curatable experiments, and applying BugSigDB policies in a veterinary context. The process strengthened my ability to standardize microbial signatures and interpret complex microbiome datasets beyond human studies.
+This curation involved navigating several non-standard challenges that extended well beyond routine case-control entry. The most significant decisions were the correct identification of the cross-sectional design despite the authors' own "longitudinal" framing, the inversion correction of Group 0 and Group 1 assignments, and the policy-justified decision to curate Fig. 4D as a single experiment rather than fragmenting it into eight per-indicator entries. The consistent directional pattern of species across all performance indicators was the key biological observation that justified this approach, and it was confirmed through direct heatmap inspection rather than relying solely on the paper's narrative text.
+
+Overall, this curation contributes a novel non-human working animal microbiome dataset to BugSigDB, with rich species-level metagenomic signatures linked to a behavioural phenotype via a gut-brain axis framework. It helped organize the study’s taxonomic, functional, and correlation-based microbiome findings into a standardized structure suitable for reproducible analysis. It highlights age-related microbial shifts in Kunming dogs and identifies species linked to police performance, offering insights into the gut–brain axis in working animals.
+
 
 
