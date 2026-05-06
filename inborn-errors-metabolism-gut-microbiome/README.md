@@ -5,7 +5,7 @@
 
 
 ## BugSigDB Entry
-🔗 Curated record: https://bugsigdb.org/41872585
+🔗 Curated record: [https://bugsigdb.org/41872585]
 
 ---
 
