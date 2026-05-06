@@ -1,1 +1,131 @@
+# Age Related Gut Microbiome and Links to Police Performance in Kunming Dogs
+
+## Full Citation
+Xu L., Liu C., Chen S., Mao A., Zi X., Li J., Ge X., Liu Q., Wang S., Li X., Wu Q., Wan J., Zhang Z., Xu H., Li J., Lin Q., Cao Z. (2026). *Characterization of age-related changes in the gut microbiome and metabolome of Kunming dogs and their associations with police performance*. Microbiome. 14:121 DOI: https://doi.org/10.1186/s40168-026-02388-8
+
+## BugSigDB Entry
+🔗 Curated record: https://bugsigdb.org/41840712
+
+---
+
+## Study Overview
+This study investigated how gut microbiome composition and functional pathways vary across age groups in Kunming dogs (Puppy, Young, Adult, Elderly), and how bacterial species correlate with police performance scores. Using a multi-omics approach combining 16S rRNA sequencing, shotgun metagenomics, metagenome-assembled genomes (MAGs), and Spearman correlation analyses, the authors identified age-related shifts in bacterial species and metabolic pathways, especially those linked to nervous system function. They also reported bacterial taxa positively or negatively correlated with police work performance. This is the first study to investigate the longitudinal changes in the gut microbiome and metabolome of Kunming dogs at different life stages and analyze their associations with police performance.
+
+---
+
+## Study Design
+- Design: Cross-sectional observational study, not case-control 
+- Population: Working dogs (n = 56)  
+- Classification: Post-enrollment behavioral grouping using C-BARQ-based assessment  
+- No intervention or follow-up  
+
+---
+
+## Experiments Curated
+
+### Experiment 1
+- Comparison: Aggressive Dogs vs Non-Aggressive Dogs  
+- Sample size: n = 56  
+
+### Experiment 2
+- Comparison: Offensive Aggression Dogs vs Defensive Aggression Dogs  
+- Sample size: n = 35  
+
+---
+
+## Statistical Analyses
+- Welch’s t-test  
+- Random Forest (Mean Decrease in Accuracy - MDA)  
+- Significance threshold: p < 0.05 (study-wide, pre-specified)  
+- No multiple hypothesis testing (MHT) correction applied  
+- No LDA scores reported  
+
+---
+
+## Data Sources
+- Figure 4b (phylum level, Experiment 1)  
+- Figure 5b (genus level, Experiment 1)  
+- Figure 8b (genus level, Experiment 2)  
+- Figure 8c (Random Forest, supporting Experiment 2)  
+
+---
+
+## Excluded Analyses
+The following were excluded based on BugSigDB curation rules:
+- Shenyang subset analysis (no significant taxa)  
+- Shanghai subset (beta diversity only)  
+- All beta diversity analyses (PCA/PCoA)  
+- Alpha diversity analyses (recorded as metadata only)  
+- Serum 5-HT ELISA results (non-microbial)  
+
+---
+
+## Differentially Abundant Taxa
+
+### Experiment 1
+
+#### Increased Abundance in Aggressive Dogs
+- *Pseudomonadota* (phylum)
+
+#### Decreased Abundanced in Aggressive Dogs
+- *Escherichia-Shigella*  
+- *Erysipelotrichaceae UCG-003*  
+- *Clostridium sensu stricto 1*  
+
+---
+
+### Experiment 2
+
+#### Increased Abundance in Offensive Aggression Dogs
+- *Turicibacter*  
+
+#### Decreased Abundance in Offensive Aggression Dogs
+- None (no significant taxa identified; no signature created)
+
+---
+
+## Alpha Diversity
+- No significant differences observed across groups  
+- Metrics assessed:
+  - Chao1  
+  - Shannon  
+  - Simpson  
+  - ACE  
+- Source: Table 4 (page 9)  
+
+---
+
+## Confounders Considered
+Controlled analytically through PCA and subgroup analyses:
+- Breed  
+- Sex  
+- Geographic location  
+- Diet  
+- Age  
+
+---
+
+## Curation Notes
+- Study design classified as cross-sectional based on sampling strategy and absence of pre-defined case/control recruitment.  
+- Matching reported in the paper applies only to a non-curatable subset and was excluded.  
+- Random Forest results were carefully evaluated:
+  - *Lactobacillus* excluded due to non-significant p-value (p = 0.977)  
+  - *Turicibacter* included due to independent statistical support (p < 0.01)  
+- Only taxa meeting p < 0.05 were curated  
+- Taxa names standardized using NCBI Taxonomy Browser  
+- Signatures created following BugSigDB rules (no empty signatures)  
+
+---
+
+## Metadata
+- Host: Dog (Canis lupus familiaris)  
+- Condition: Aggressive behavior  
+- Sequencing: 16S rRNA (Illumina MiSeq)  
+- Environment: Veterinary / working dog cohort  
+
+---
+
+## Curation Summary
+This curation involved critical evaluation of study design, statistical methodologies, and microbiome data interpretation. It required distinguishing between machine learning outputs and statistically validated results, correctly identifying curatable experiments, and applying BugSigDB policies in a veterinary context. The process strengthened my ability to standardize microbial signatures and interpret complex microbiome datasets beyond human studies.
+
 
