@@ -13,7 +13,7 @@ This repository serves as:
 - A portfolio of my microbiome curation work  
 - Documentation of my contributions to BugSigDB  
 - A reference for future microbiome-related projects  
-- Record of open-source contributions  
+- Record of open-source contributions (Available at: https://bugsigdb.org/Special:Contributions/LightAmadi)  
 
 ---
 
