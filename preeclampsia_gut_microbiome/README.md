@@ -5,7 +5,7 @@ Genxia Li, Huan Niu, Junya Zhang, Manman Yang, Mengyu Li, Mingkun Xie, Yujing Ha
 DOI: https://doi.org/10.1186/s12884-025-07760-4
 
 ## BugSigDB Entry
-🔗 Curated record: https://bugsigdb.org/40450263
+🔗 Curated record:[Click here](https://bugsigdb.org/40450263)
 
 ---
 
