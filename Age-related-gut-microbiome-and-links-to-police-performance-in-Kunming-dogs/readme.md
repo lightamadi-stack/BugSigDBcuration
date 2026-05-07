@@ -32,7 +32,7 @@ This study investigated how gut microbiome composition, metabolome, and function
 - Sample size: 12 per group
 - Statistical method: Wilcoxon rank-sum test
 
-### ⚗️Experiment 6 (Spearman correlation)
+### ⚗️Experiment 3 - 10 (Spearman correlation)
 - Comparison: Positive vs Negative correlation between bacterial species and each police performance indicators (crowd crossing, environmental adptation, led performance, possessive desire, object attention, object holding bite, searching desire, and searching capability)
 - Statistical method: Spearman correlation
 
