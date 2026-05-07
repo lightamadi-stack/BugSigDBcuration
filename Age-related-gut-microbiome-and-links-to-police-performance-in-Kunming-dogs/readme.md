@@ -4,7 +4,7 @@
 Xu L., Liu C., Chen S., Mao A., Zi X., Li J., Ge X., Liu Q., Wang S., Li X., Wu Q., Wan J., Zhang Z., Xu H., Li J., Lin Q., Cao Z. (2026). *Characterization of age-related changes in the gut microbiome and metabolome of Kunming dogs and their associations with police performance*. Microbiome. 14:121 DOI: https://doi.org/10.1186/s40168-026-02388-8
 
 ## BugSigDB Entry
-🔗 Curated record: https://bugsigdb.org/41840712
+🔗 Curated record: [Click here](https://bugsigdb.org/41840712)
 
 ---
 
