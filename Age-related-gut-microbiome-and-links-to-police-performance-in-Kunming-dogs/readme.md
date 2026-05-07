@@ -21,7 +21,7 @@ This study investigated how gut microbiome composition, metabolome, and function
 ## 🗂️ Curation Approach
 - The experiments were curated as one-vs-all comparision, where each age group was compared against all other groups combined (e.g., Puppy vs Young/Adult/Elderly), rather than pair wise.
 - Although four experiments were expected from these comparisions, ony two were statistically significant, resulting in two curatble experiments from this comparison.
-- Eeach police performance indicator was curated separately, resulting in eight (8) additional experiments. This brings the total number of curated experiments to ten (10). 
+- Each police performance indicator was curated separately, resulting in eight (8) additional experiments. This brings the total number of curated experiments to ten (10). 
 
 ---
 
