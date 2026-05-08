@@ -35,7 +35,7 @@ This study investigated the association between vaginal microbiota composition a
 - Source: Table 3 
 
 
-### ⚗️Experiment 3 - 10 (Spearman correlation)
+### ⚗️Experiment 2
 - Comparison: Non-spontaneous preterm labor (control) vs spontaneous preterm labor (case)
 - Sample size: Group 0 (non-spontaneous preterm) n = 17; Group 1 (spontaneous preterm) n = 23
 - Statistical method: DESeq2 and Wald test with FDR correction
