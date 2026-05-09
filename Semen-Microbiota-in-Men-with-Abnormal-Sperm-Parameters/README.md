@@ -10,7 +10,7 @@ DOI: https://doi.org/10.1038/s41598-024-51686-4
 ---
 
 ## 📘Study Overview
-This study investigated the relationship between the semen microbiome and alterations in sperm parameters in men presenting for fertility evaluation or vasectomy consultation. Using 16S rRNA sequencing (V1–V2) and ANCOM-BC differential abundance testing, the authors compared semen microbial communities across three a priori defined group contrasts: overall semen analysis parameters, sperm motility, and sperm concentration. The study is the largest semen microbiome study published to date (n = 73) and identified a small set of microbial species — notably Lactobacillus iners and members of the genus Pseudomonas, as potentially associated with abnormal sperm parameters.
+This study investigated the relationship between the semen microbiome and alterations in sperm parameters in men presenting for fertility evaluation or vasectomy consultation. Using 16S rRNA sequencing (V1–V2) and ANCOM-BC differential abundance testing, the authors compared semen microbial communities across three a priori defined group contrasts: overall semen analysis parameters, sperm motility, and sperm concentration. The study is the largest semen microbiome study published to date (n = 73) and identified a small set of microbial species, notably Lactobacillus iners and members of the genus Pseudomonas, as potentially associated with abnormal sperm parameters.
 
 ---
 
