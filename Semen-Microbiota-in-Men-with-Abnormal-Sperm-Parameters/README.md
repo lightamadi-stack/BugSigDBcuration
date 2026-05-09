@@ -33,6 +33,12 @@ This study investigated the relationship between the semen microbiome and altera
     * Group 1 (abnormal sperm results) n = 31
 - Statistical method: ANCOM-BC
 
+### 🦠 Differentially Abundant Taxa
+- Increased in Abnormal sperm results (Case)
+      - *Peptoniphilus coxii*
+- Increased in Normal sperm results (Control)
+      - *Staphylococcus hominis*
+
 ### ⚗️Experiment 2
 - Comparison: Normal sperm motility vs. abnormal sperm motility (n = 46 vs. n = 27)
 - Sample size: 46 vs 27
@@ -40,12 +46,26 @@ This study investigated the relationship between the semen microbiome and altera
     * Group 1 (abnormal sperm motility) n = 27
 - Statistical method: ANCOM-BC
 
+### 🦠 Differentially Abundant Taxa
+- Increased in Abnormal Sperm motility (Case)
+      - *Lactobacillus iners*
+- Increased in Normal sperm motility (Control)
+      - No taxa met the significance threshold in this direction
+
 ### ⚗️Experiment 3
 - Comparison: Normal sperm concentration vs. abnormal sperm concentration (n = 53 vs. n = 20)
 - Sample size: 53 vs 23
     * Group 0 (normal sperm concentration) n = 53
     * Group 1 (abnormal sperm concentration) n = 20
 - Statistical method: ANCOM-BC
+
+### 🦠 Differentially Abundant Taxa
+- Increased in Abnormal sperm concentration (Case)
+      - *Pseudomonas fluorescens*
+      - *Pseudomonas stutzeri*
+      - *Paraburkholderia phenazinium*
+- Increased in Normal sperm concentration (Control)
+      - *Pseudomonas putida*
 
 ---
 
@@ -71,16 +91,11 @@ This study investigated the relationship between the semen microbiome and altera
 
 ## 🚫Excluded Analyses
 The following were excluded based on BugSigDB curation rules:
-- Figure 1 (Kruskal–Wallis/Dunn test): Genus-level abundance summaries; not the primary DA test.
-- Correlation analysis (SparCC): Did not report taxa-level differential abundance. 
-- Non-significant taxa. For example, *Prevotella bivia* (Experiment 2, p adj = 0.353), explicitly does not meet FDR ≤ 0.05 threshold despite borderline raw p value of 0.050; excluded per curation policy
-- Beta diversity results
-
----
-
-## 🦠 Differentially Abundant Taxa
-
-### See ➤ :[https://bugsigdb.org/31332740]
+- Beta diversity results.
+- Relative abundance bar charts: Figures 2, Supplementary Figures 3 and 4,  descriptive visualizations of top 30 species with no significance annotations; no taxa meet the significance threshold in these figures.
+- Canonical Correlation Analysis: Table 2 and Figure 4. CCA is a community-level continuous association method, not a discrete differential abundance test. Results do not constitute curatable group-level signatures.
+- Antibiotic use data: Not collected by the authors. Antibiotic exclusion criteria were not applied in this study, which is a noted methodological limitation.
+- Supplementary Tables 1–4 and 6: Participant demographics, sequence depth statistics, and CCA constraining variables, no taxon-level differential abundance results.
 
 ---
 
