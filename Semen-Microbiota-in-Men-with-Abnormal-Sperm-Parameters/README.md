@@ -74,14 +74,6 @@ This study investigated the relationship between the semen microbiome and altera
 - Significance threshold: p < 0.05 (unadjusted)
 - Multiple testing correction: None applied to ANCOM-BC output p-values. The authors explicitly stated: "less stringent parameters were used to maximize detection of possible discriminatory taxa (no p-value correction)
 
-### Alpha Diversity
-- Metrics reported:
-    - OTU richness (mapped to Richness)
-    - Hill1 diversity (mapped to Shannon)
-    - Phylogenetic Hill1 diversity (has no direct BugSigDB equivalent; was flagged for reviewer verification)
-- Direction of change: No significant differences across all three group comparisons
-- Significance: All p > 0.10 across all groups and all three alpha diversity metrics
-
 ---
 
 ## 🗂️Data Sources
@@ -100,25 +92,23 @@ The following were excluded based on BugSigDB curation rules:
 ---
 
 ## ✏️Curation Notes
-- Statistical test entry: Both DESeq2 and Wald test were entered as statistical tests. DESeq2 was named in the methods section; Wald test was explicitly named in Table 3 footnote ("Wald test p value"). BugSigDB curation policy permits multiple statistical test entries and both are directly stated in the paper.
-- Intrapartum penicillin handling: 15 of 23 spontaneous preterm participants received intrapartum penicillin and were removed analytically before DESeq2 analysis. This is recorded as a confounder mitigation step, not as the enrollment antibiotic exclusion criterion. 
+- Study design: Labeled as cross-sectional because no longitudinal follow-up or intervention occurred.
+- Data transformation: ANCOM-BC takes raw count data as input by convention; the paper does not explicitly state the input format. Raw counts were recorded as the data transformation per the standard default mapping for ANCOM-BC, with a note that this was inferred rather than explicitly confirmed.
+- Alpha diversity metric mapping: Hill1 diversity was mapped to Shannon (Hill q=1 = exp(Shannon entropy)); phylogenetic Hill1 diversity has no direct BugSigDB equivalent and was flagged for reviewer verification.
 
 ---
 
 ## 🗃️Metadata
 - Host: Homo sapiens
-- Disease/Condition: Premature birth
-- Environment: Vagina (vaginal swab)
-- Sequencing platform: Ion PGM (Thermo Fisher Scientific); 16S rRNA V4 region; primers 515F/806R; OTU clustering at 97% similarity; taxonomy assigned against SILVA database v128
+- Disease/Condition: Male infertility (Abnormal semen parameters: mobility and/or concentration)
+- Environment: Semen
+- Sequencing platform: Illumina MiSeq (16S rRNA gene, V1–V2)
 
 ---
 
 ## 🧾Curation Summary
-This curation involved careful application of **BugSigDB curation policy** across several genuinely ambiguous decisions. Key learning points included: 
-- Distinguishing between study design labels using precise policy definitions rather than how authors self-describe their study.
-- Correctly applying FDR-adjusted versus raw p value thresholds for taxon inclusion.
-- Understanding when to enter multiple statistical test entries.
-- Handling analytical antibiotic exclusions separately from enrollment exclusions; and converting trimester-based antibiotic exclusion criteria to numeric entries with appropriate documentation.
- 
-This study contributes **two curatable experiments** to BugSigDB characterizing vaginal microbial signatures of spontaneous preterm birth in a Brazilian cohort, adding to the global evidence base for *Prevotella* as a risk-associated taxon and *Lactobacillus iners* and *Lactobacillus jensenii* as protective taxa in preterm birth microbiome research.
+This curation involved a cross-sectional semen microbiome study with three distinct group comparisons derived from the same participant cohort. Key learning points included:
+- Mapping non-standard alpha diversity metrics (Hill numbers) to BugSigDB-recognized equivalents.
+- Recognizing that canonical correlation analysis results, while biologically informative, do not qualify as curatable differential abundance signatures.
 
+The study contributes **seven species-level signatures** across **three semen microbiome** comparisons to BugSigDB, representing the largest semen microbiome dataset curated to date and the first BugSigDB entries linking *Lactobacillus iners* and *Pseudomonas* species to male sperm parameter abnormalities.
