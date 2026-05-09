@@ -32,7 +32,6 @@ This study investigated the relationship between the semen microbiome and altera
     * Group 0 (normal sperm results) n = 42
     * Group 1 (abnormal sperm results) n = 31
 - Statistical method: ANCOM-BC
-- Source: Figure 3A; Supplementary Table 5
 
 ### ⚗️Experiment 2
 - Comparison: Normal sperm motility vs. abnormal sperm motility (n = 46 vs. n = 27)
@@ -40,7 +39,6 @@ This study investigated the relationship between the semen microbiome and altera
     * Group 0 (normal sperm motility) n = 46
     * Group 1 (abnormal sperm motility) n = 27
 - Statistical method: ANCOM-BC
-- Source: Figure 3A; Supplementary Table 5
 
 ### ⚗️Experiment 3
 - Comparison: Normal sperm concentration vs. abnormal sperm concentration (n = 53 vs. n = 20)
@@ -48,19 +46,26 @@ This study investigated the relationship between the semen microbiome and altera
     * Group 0 (normal sperm concentration) n = 53
     * Group 1 (abnormal sperm concentration) n = 20
 - Statistical method: ANCOM-BC
-- Source: Figure 3A; Supplementary Table 5
 
 ---
 
 ## 🔢Statistical Analyses
-- Primary tests used for curation: DESeq2 (negative binomial model) and Wald test for differential abundance analysis
-- Significance threshold: FDR-adjusted p ≤ 0.05
-- Multiple testing correction: FDR (Benjamini-Hochberg method) applied via DESeq2
+- Primary tests used for curation: ANCOM-BC (Analysis of Composition of Microbiomes with Bias Correction) for differential abundance
+- Significance threshold: p < 0.05 (unadjusted)
+- Multiple testing correction: None applied to ANCOM-BC output p-values. The authors explicitly stated: "less stringent parameters were used to maximize detection of possible discriminatory taxa (no p-value correction)
+
+### Alpha Diversity
+- Metrics reported:
+    - OTU richness (mapped to Richness)
+    - Hill1 diversity (mapped to Shannon)
+    - Phylogenetic Hill1 diversity (has no direct BugSigDB equivalent; was flagged for reviewer verification)
+- Direction of change: No significant differences across all three group comparisons
+- Significance: All p > 0.10 across all groups and all three alpha diversity metrics
 
 ---
 
 ## 🗂️Data Sources
-- Table 3
+- Figure 3A-C and Supplementary Table 5
 
 ---
 
