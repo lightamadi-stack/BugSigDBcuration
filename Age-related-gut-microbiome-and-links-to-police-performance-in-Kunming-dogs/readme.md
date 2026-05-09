@@ -21,7 +21,9 @@ This study investigated how gut microbiome composition, metabolome, and function
 ## 🗂️ Curation Approach
 - The experiments were curated as one-vs-all comparision, where each age group was compared against all other groups combined (e.g., Puppy vs Young/Adult/Elderly), rather than pair wise.
 - Although four experiments were expected from these comparisions, ony two were statistically significant, resulting in two curatble experiments from this comparison.
-- Each police performance indicator was curated separately, resulting in eight (8) additional experiments. This brings the total number of curated experiments to ten (10). 
+- Each police performance indicator was curated separately, resulting in eight (8) additional experiments. This brings the total number of curated experiments to ten (10).
+
+**NOTE:** *During the curation of this study, I encountered a **Compact Letter Display (CLD)** in Fig. S1A and S1B, which I used to determine statistical significance between age groups for each taxon. The key rule I applied is: Groups sharing the same letter are NOT significantly different from each other, while groups assigned different letters ARE significantly different. Based on my reading of the CLD letters, I confirmed that only two contrasts were curatable from Fig. S1A and S1B This was my first time systematically applying CLD interpretation in a BugSigDB curation context, and it is a skill I will carry forward to future curations involving multi-group bar charts with significance letter annotations.*
 
 ---
 
