@@ -1,7 +1,8 @@
 # Semen Microbiota are Dramatically Altered in Men with Abnormal Sperm Parameters
 
 ## Full Citation
-Vadim Osadchiy, Andre Belarmino, Reza Kianian, John T. Sigalos, Jacob S. Ancira, Trisha Kanie, Sarah F. Mangum, Craig D. Tipton, Tung-Chin M. Hsieh, Jesse N. Mills & Sriram V. Eleswarapu (2024). *Semen microbiota are dramatically altered in men with abnormal sperm parameters*. Scientific Reports volume 14, Article number: 1068 DOI: https://doi.org/10.1038/s41598-024-51686-4
+Vadim Osadchiy, Andre Belarmino, Reza Kianian, John T. Sigalos, Jacob S. Ancira, Trisha Kanie, Sarah F. Mangum, Craig D. Tipton, Tung-Chin M. Hsieh, Jesse N. Mills & Sriram V. Eleswarapu (2024). *Semen microbiota are dramatically altered in men with abnormal sperm parameters*. Scientific Reports volume 14, Article number: 1068 
+DOI: https://doi.org/10.1038/s41598-024-51686-4
 
 ## BugSigDB Entry
 🔗 Curated record: [Click here](https://bugsigdb.org/38212576)
