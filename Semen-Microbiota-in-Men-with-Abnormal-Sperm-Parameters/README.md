@@ -87,7 +87,6 @@ The following were excluded based on BugSigDB curation rules:
 - Beta diversity results.
 - Relative abundance bar charts: Figures 2, Supplementary Figures 3 and 4,  descriptive visualizations of top 30 species with no significance annotations; no taxa meet the significance threshold in these figures.
 - Canonical Correlation Analysis: Table 2 and Figure 4. CCA is a community-level continuous association method, not a discrete differential abundance test. Results do not constitute curatable group-level signatures.
-- Antibiotic use data: Not collected by the authors. Antibiotic exclusion criteria were not applied in this study, which is a noted methodological limitation.
 - Supplementary Tables 1–4 and 6: Participant demographics, sequence depth statistics, and CCA constraining variables, no taxon-level differential abundance results.
 
 ---
