@@ -15,24 +15,25 @@ This study investigated the blood microbiome profile of women with polycystic ov
 ---
 
 ## 🧪Study Design
-- Design type: Cross-sectional observational study, not case-control.
+- Design type: Case-control.
 - Host species: Homo sapiens
-- Sample size: 73 total participants (men)
+- Sample size: 48 total (24 PCOS, 24 healthy controls)
 - Groups compared:
-    - Group 1: Normal SA parameters vs. abnormal SA parameters (n = 42 vs. n = 31)
-    - Group 2: Normal sperm motility vs. abnormal sperm motility (n = 46 vs. n = 27)
-    - Group 3: Normal sperm concentration vs. abnormal sperm concentration (n = 53 vs. n = 20)
+    - Group 1: Women with newly diagnosed PCOS (Rotterdam criteria)
+    - Group 2: healthy women without history of PCOS 
+Confounders reported/controlled: Age and BMI differed significantly between groups but were not adjusted for in any differential abundance analysis. No covariate adjustment was performed
 
 ---
 
 ## 🔬Experiments Curated
 
 ### ⚗️Experiment 1
-- Comparison: Normal sperm results vs. abnormal sperm results
-- Sample size: 42 vs 21
-    * Group 0 (normal sperm results) n = 42
-    * Group 1 (abnormal sperm results) n = 31
-- Statistical method: ANCOM-BC
+- Comparison: PCOS vs Healthy Controls 
+- Sample size: 24 vs 24
+- Statistical method: Mann–Whitney U-test
+- Source figures/tables: Supplementary Figure S2 (family-level boxplots)
+      - *Note: Figure 2A/B (phylum/order results) was not curated because Supplementary Figure S2 provides lower (more specific) family-level data, as required by BugSigDB policy.* 
+
 
 ### 🦠 Differentially Abundant Taxa
 - Increased in Abnormal sperm results (Case)
