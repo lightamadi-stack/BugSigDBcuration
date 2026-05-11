@@ -55,6 +55,7 @@ Open each folder and view the README.md file to explore the curated taxa, the de
 - [Age Related Gut Microbiome and Links to Police Performance in Kunming Dogs](Age-related-gut-microbiome-and-links-to-police-performance-in-Kunming-dogs)
 - [Defining Microbial Biomarkers for Risk of Preterm Labor](Microbial-Biomarkers-for-Risk-of-Preterm-Labor)
 - [Semen Microbiota in Men with Abnormal Sperm Parameters](Semen-Microbiota-in-Men-with-Abnormal-Sperm-Parameters)
+- [Blood Bacterial 16S rRNA Gene Alterations in Women with Polycystic Ovary Syndrome (PCOS)](Blood-Bacterial-16S-rRNA-Gene-Alterations-in-Women-with-Polycystic-Ovary-Syndrome)
 
 ---
 
