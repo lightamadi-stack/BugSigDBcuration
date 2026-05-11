@@ -31,9 +31,7 @@ Confounders reported/controlled: Age and BMI differed significantly between grou
 - Comparison: Polycystic Ovary Syndrome (PCOS) vs Healthy Controls 
 - Sample size: 24 vs 24
 - Statistical method: Mann–Whitney U-test
-- Source figures/tables: Supplementary Figure S2 (family-level boxplots)
-      - *Note: Figure 2A/B (phylum/order results) was not curated because Supplementary Figure S2 provides lower (more specific) family-level data, as required by BugSigDB policy.* 
-
+- Source figures/tables: Figure 2A, 2B, and Supplementary Figure S2 (phylum, order and family-level)
 
 ### 🦠 Differentially Abundant Taxa
 - Increased in PCOS (Case)
@@ -46,7 +44,6 @@ Confounders reported/controlled: Age and BMI differed significantly between grou
 - Sample size: 24 vs 24
 - Statistical method: LEfSe (LDA > 3.0) 
 - Source figures/tables: Figure 3A (LDA barplot)
-      - *Note: Only the lowest (i.e. most specific) taxonomic rank was curated from figure 3A
 
 ### 🦠 Differentially Abundant Taxa
 - Increased in PCOS (Case)
@@ -74,13 +71,12 @@ Confounders reported/controlled: Age and BMI differed significantly between grou
 ---
 
 ## 🗂️Data Sources
-- Figure 2A and Supplementary Figure S2
+- Figure 2A, 2B, Figure 3A and Supplementary Figure S2
 
 ---
 
 ## 🚫Excluded Analyses
 The following were excluded based on BugSigDB curation rules:
-- Figure 2A/B: Not curated due to higher-level taxonomy (phylum/order). Supplementary S2 provided more specific family-level results for the same taxa.
 - Figure 3B: Cladogram visualization of the same LEfSe results shown in Figure 3A; no unique taxa.
 - KEGG pathway analysis: Excluded — functional pathways are not curated in BugSigDB.
 - Alpha and Beta diversity analyses: Not curatable
@@ -91,9 +87,7 @@ The following were excluded based on BugSigDB curation rules:
 ## ✏️Curation Notes
 - Two separate experiments were created despite both statistical test comparing the same groups (PCOS vs. controls) and were not fully overlapping, per BugSigDB policy:
     - Mann-Whitney and LEfSe use distinct statistical frameworks and report at different taxonomic resolutions — Mann-Whitney stops at family level while LEfSe resolves to genus level in several chains
-    - The resulting taxon lists are not fully overlapping *Veillonellaceae* for example, appear only in Mann-Whitney; *Skermanella*, *Rhodospirillales*, *Rhizobiales*, *Micrococcaceae*, and genus-level taxa appear only in LEfSe Per BugSigDB curation policy: *Curate as two different experiments when results are different (not fully overlapping) between the tests*.
-- Family-level taxa in Supplementary Figure S2 were curated instead of phylum or order-level data from Figure 2, following the requirement to curate the lowest specific taxonomic rank.
-- Antibiotic use within 3 months was an explicit exclusion criterion for all participants — recorded as "yes" for both experiments per BugSigDB curation policy.
+    - Antibiotic use within 3 months was an explicit exclusion criterion for all participants — recorded as "yes" for both experiments per BugSigDB curation policy.
 
 ---
 
@@ -107,6 +101,6 @@ The following were excluded based on BugSigDB curation rules:
 ---
 
 ## 🧾Curation Summary
-This curation required carefully distinguishing between overlapping analyses and taxonomic levels. I applied BugSigDB rules to separate the study into two valid experiments: one based on Mann–Whitney family-level results and one based on LEfSe biomarker results. The process strengthened my understanding of hierarchical taxonomy decisions, experiment definition rules, and the use of the lowest available taxonomic level. and recognizing that uncontrolled confounders (age, BMI) are noted but not entered in the BugSigDB confounders field unless they were actually adjusted for in the model. The study also reinforced the importance of cross-referencing figure panels against text descriptions when discrepancies arise, as seen with Oxalobacteraceae and Bacteroidaceae. 
+This curation required carefully distinguishing between overlapping analyses and taxonomic levels. I applied BugSigDB rules to separate the study into two valid experiments: one based on Mann–Whitney family-level results and one based on LEfSe biomarker results. The process strengthened my understanding of hierarchical taxonomy decisions, experiment definition rules, and recognizing that uncontrolled confounders (age, BMI) are noted but not entered in the BugSigDB confounders field unless they were actually adjusted for in the model. The study also reinforced the importance of cross-referencing figure panels against text descriptions when discrepancies arise, as seen with Oxalobacteraceae and Bacteroidaceae. 
 
 This curation contributes a clean, policy-compliant record of blood microbiome signatures associated with PCOS. This curation contributed to BugSigDB by adding the first blood microbiome study in PCOS, a body site and condition combination not previously represented in the database.
