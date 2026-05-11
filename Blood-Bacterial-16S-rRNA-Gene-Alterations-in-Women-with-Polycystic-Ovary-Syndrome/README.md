@@ -20,7 +20,7 @@ This study investigated the blood microbiome profile of women with polycystic ov
 - Sample size: 48 total (24 PCOS, 24 healthy controls)
 - Groups compared:
     - Group 1: Women with newly diagnosed PCOS (Rotterdam criteria)
-    - Group 2: healthy women without history of PCOS 
+    - Group 2: Healthy women without history of PCOS 
 Confounders reported/controlled: Age and BMI differed significantly between groups but were not adjusted for in any differential abundance analysis. No covariate adjustment was performed
 
 ---
@@ -28,7 +28,7 @@ Confounders reported/controlled: Age and BMI differed significantly between grou
 ## 🔬Experiments Curated
 
 ### ⚗️Experiment 1
-- Comparison: PCOS vs Healthy Controls 
+- Comparison: Polycystic Ovary Syndrome (PCOS) vs Healthy Controls 
 - Sample size: 24 vs 24
 - Statistical method: Mann–Whitney U-test
 - Source figures/tables: Supplementary Figure S2 (family-level boxplots)
@@ -36,66 +36,64 @@ Confounders reported/controlled: Age and BMI differed significantly between grou
 
 
 ### 🦠 Differentially Abundant Taxa
-- Increased in Abnormal sperm results (Case)
-      - *Peptoniphilus coxii*
-- Increased in Normal sperm results (Control)
-      - *Staphylococcus hominis*
+- Increased in PCOS (Case)
+      - *Intrasporangiaceae*, *Nocardioidaceae*, *Comamonadaceae* etc.
+- Increased in Healthy Controls
+      - *Burkholderiaceae*, *Lachnospiraceae*, *Lactobacillaceae* etc
 
 ### ⚗️Experiment 2
-- Comparison: Normal sperm motility vs. abnormal sperm motility (n = 46 vs. n = 27)
-- Sample size: 46 vs 27
-    * Group 0 (normal sperm motility) n = 46
-    * Group 1 (abnormal sperm motility) n = 27
-- Statistical method: ANCOM-BC
+- Comparison: Polycystic Ovary Syndrome (PCOS) vs Healthy Controls 
+- Sample size: 24 vs 24
+- Statistical method: LEfSe (LDA > 3.0) 
+- Source figures/tables: Figure 3A (LDA barplot)
+      - *Note: Only the lowest (i.e. most specific) taxonomic rank was curated from figure 3A
 
 ### 🦠 Differentially Abundant Taxa
-- Increased in Abnormal Sperm motility (Case)
-      - *Lactobacillus iners*
-- Increased in Normal sperm motility (Control)
-      - No taxa met the significance threshold in this direction
-
-### ⚗️Experiment 3
-- Comparison: Normal sperm concentration vs. abnormal sperm concentration (n = 53 vs. n = 20)
-- Sample size: 53 vs 23
-    * Group 0 (normal sperm concentration) n = 53
-    * Group 1 (abnormal sperm concentration) n = 20
-- Statistical method: ANCOM-BC
-
-### 🦠 Differentially Abundant Taxa
-- Increased in Abnormal sperm concentration (Case)
-      - *Pseudomonas fluorescens*
-      - *Pseudomonas stutzeri*
-      - *Paraburkholderia phenazinium*
-- Increased in Normal sperm concentration (Control)
-      - *Pseudomonas putida*
+- Increased in PCOS (Case)
+      - *Skermanella*, *Acinetobacter*, *Nocardioidaceae* etc
+- Increased in Healthy Controls
+      - *Burkholderia*, *Lactobacillus*, *Faecalibacterium*, etc
 
 ---
 
 ## 🔢Statistical Analyses
-- Primary tests used for curation: ANCOM-BC (Analysis of Composition of Microbiomes with Bias Correction) for differential abundance
-- Significance threshold: p < 0.05 (unadjusted)
-- Multiple testing correction: None applied to ANCOM-BC output p-values. The authors explicitly stated: "less stringent parameters were used to maximize detection of possible discriminatory taxa (no p-value correction)
+- Primary tests used for curation:
+      - Mann–Whitney U-test (Experiment 1)
+      - LEfSe (LDA > 3.0) (Experiment 2)
+- Significance threshold:
+    - p < 0.05 for Mann–Whitney
+    - LDA > 3.0 and p < 0.05 for LEfSe
+- Multiple testing correction: None
+
+## Alpha Diversity
+- Metrics reported: Faith’s PD, Chao1, Observed OTUs
+- Direction of change: Significantly decreased in PCOS
+- Significance: All metrics p < 0.001
+- *Note: Alpha diversity was recorded as metadata for both experiments and was not curated as a separate experiment*
 
 ---
 
 ## 🗂️Data Sources
-- Figure 3A-C and Supplementary Table 5
+- Figure 2A and Supplementary Figure S2
 
 ---
 
 ## 🚫Excluded Analyses
 The following were excluded based on BugSigDB curation rules:
-- Beta diversity results.
-- Relative abundance bar charts: Figures 2, Supplementary Figures 3 and 4,  descriptive visualizations of top 30 species with no significance annotations; no taxa meet the significance threshold in these figures.
-- Canonical Correlation Analysis: Table 2 and Figure 4. CCA is a community-level continuous association method, not a discrete differential abundance test. Results do not constitute curatable group-level signatures.
-- Supplementary Tables 1–4 and 6: Participant demographics, sequence depth statistics, and CCA constraining variables, no taxon-level differential abundance results.
+- Figure 2A/B: Not curated due to higher-level taxonomy (phylum/order). Supplementary S2 provided more specific family-level results for the same taxa.
+- Figure 3B: Cladogram visualization of the same LEfSe results shown in Figure 3A; no unique taxa.
+- KEGG pathway analysis: Excluded — functional pathways are not curated in BugSigDB.
+- Alpha and Beta diversity analyses: Not curatable
+- Supplementary Figure S1: Overall sequencing proportion by taxonomic level — excluded; no significant taxon-level contrast shown, descriptive only.
 
 ---
 
 ## ✏️Curation Notes
-- Study design: Labeled as cross-sectional because no longitudinal follow-up or intervention occurred.
-- Data transformation: ANCOM-BC takes raw count data as input by convention; the paper does not explicitly state the input format. Raw counts were recorded as the data transformation per the standard default mapping for ANCOM-BC, with a note that this was inferred rather than explicitly confirmed.
-- Alpha diversity metric mapping: Hill1 diversity was mapped to Shannon (Hill q=1 = exp(Shannon entropy)); phylogenetic Hill1 diversity has no direct BugSigDB equivalent and was flagged for reviewer verification.
+- Two separate experiments were created despite both statistical test comparing the same groups (PCOS vs. controls) and were not fully overlapping, per BugSigDB policy:
+    - Mann-Whitney and LEfSe use distinct statistical frameworks and report at different taxonomic resolutions — Mann-Whitney stops at family level while LEfSe resolves to genus level in several chains
+    - The resulting taxon lists are not fully overlapping *Veillonellaceae* for example, appear only in Mann-Whitney; *Skermanella*, *Rhodospirillales*, *Rhizobiales*, *Micrococcaceae*, and genus-level taxa appear only in LEfSe Per BugSigDB curation policy: *Curate as two different experiments when results are different (not fully overlapping) between the tests*.
+- Family-level taxa in Supplementary Figure S2 were curated instead of phylum or order-level data from Figure 2, following the requirement to curate the lowest specific taxonomic rank.
+- Antibiotic use within 3 months was an explicit exclusion criterion for all participants — recorded as "yes" for both experiments per BugSigDB curation policy.
 
 ---
 
