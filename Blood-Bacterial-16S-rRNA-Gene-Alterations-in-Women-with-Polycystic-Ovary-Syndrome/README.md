@@ -99,16 +99,17 @@ The following were excluded based on BugSigDB curation rules:
 
 ## 🗃️Metadata
 - Host: Homo sapiens
-- Disease/Condition: Male infertility (Abnormal semen parameters: mobility and/or concentration)
-- Environment: Semen
-- Sequencing platform: Illumina MiSeq (16S rRNA gene, V1–V2)
+- Disease/Condition: Polycystic ovary syndrome (PCOS)
+- Body site: Blood
+- Environment: Clinical (hospital-based recruitment, First Affiliated Hospital of Xi'an Jiaotong University, China)
+- Sequencing platform: Illumina MiSeq (16S rRNA gene, V3–V4)
 
 ---
 
 ## 🧾Curation Summary
-This curation involved a cross-sectional semen microbiome study with three distinct group comparisons derived from the same participant cohort. Key learning points included:
-- Mapping non-standard alpha diversity metrics (Hill numbers) to BugSigDB-recognized equivalents.
-- Recognizing that canonical correlation analysis results, while biologically informative, do not qualify as curatable differential abundance signatures.
+This curation required carefully distinguishing between overlapping analyses and taxonomic levels. I applied BugSigDB rules to separate the study into two valid experiments: one based on Mann–Whitney family-level results and one based on LEfSe biomarker results. The process strengthened my understanding of hierarchical taxonomy decisions, experiment definition rules, and the use of the lowest available taxonomic level. and recognizing that uncontrolled confounders (age, BMI) are noted but not entered in the BugSigDB confounders field unless they were actually adjusted for in the model. The study also reinforced the importance of cross-referencing figure panels against text descriptions when discrepancies arise, as seen with Oxalobacteraceae and Bacteroidaceae. 
 
-The study contributes **seven species-level signatures** across **three semen microbiome** comparisons to BugSigDB, representing the largest semen microbiome dataset curated to date and the first BugSigDB entries linking *Lactobacillus iners* and *Pseudomonas* species to male sperm parameter abnormalities.
+This curation contributes a clean, policy-compliant record of blood microbiome signatures associated with PCOS. This curation contributed to BugSigDB by adding the first blood microbiome study in PCOS, a body site and condition combination not previously represented in the database.
+
+to male sperm parameter abnormalities.
 
