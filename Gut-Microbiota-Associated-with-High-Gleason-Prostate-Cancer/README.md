@@ -9,98 +9,99 @@ Matsushita M., Fujita K., Motooka D., Hatano K., Fukae S., Kawamura N., Tomiyama
 ---
 
 ## 📘Study Overview
-This study investigated the blood microbiome profile of women with polycystic ovary syndrome (PCOS) compared to healthy controls using 16S rRNA gene sequencing. It is the first study to characterize the circulating (blood) microbiome in PCOS, as previous microbiome research in this condition focused primarily on the gut and saliva. The study measured alpha and beta diversity, identified differentially abundant taxa using Mann-Whitney U-test and LEfSe, and performed KEGG functional pathway prediction at the genus level.
+Study Overview
+This study investigated the association between gut microbiota composition and high-grade prostate cancer (PCa) in Japanese men. 152 men suspected of PCa undergoing prostate biopsy were recruited across three hospitals in Osaka, Japan. Rectal swab samples were collected before biopsy and analyzed using 16S rRNA gene sequencing (V1–V2 region). Participants were divided into a high-risk group (Grade Group ≥ 2 PCa) and a negative + low-risk group (negative biopsy or Grade Group 1 PCa). The study also developed a composite predictive index — the Fecal Microbiome Prostate Index (FMPI) — from 18 LASSO-selected bacterial genera, which outperformed PSA testing in detecting high-risk PCa.
 
 ---
 
 ## 🧪Study Design
-- Design type: Case-control.
+- Design type: Cross-sectional observational, not case-control. *Although groups were defined by disease status, all participants were enrolled under the same criterion (suspected PCa, undergoing biopsy) at a single time point. Group membership was determined retrospectively after biopsy results, with no deliberate case/control recruitment, no matching, and no follow-up. The microbiome data were analyzed at one time point only*.
 - Host species: Homo sapiens
-- Sample size: 48 total (24 PCOS, 24 healthy controls)
+- Sample size: 152 total (discovery cohort: n = 114; external test cohort: n = 38)
 - Groups compared:
-    - Group 1: Women with newly diagnosed PCOS (Rotterdam criteria)
-    - Group 2: Healthy women without history of PCOS 
-Confounders reported/controlled: Age and BMI differed significantly between groups but were not adjusted for in any differential abundance analysis. No covariate adjustment was performed
+    - Men with prostate cancer (PCa) and positive biopsy *(Group 1)* VS Men without prostate cancer (PCa) and negative biopsy *(Group 0)*
+    - Men with grade group 2 or higher risk prostate cancer (PCa) *(Group 1)* VS men with negative and low risk group *(Group 0)
+Confounders reported/controlled: Age and PSA were significantly higher in the high-risk group (Table 1). BMI, family history, LUTS, smoking, alcohol consumption, dietary habits, diabetes, hypertension, and dyslipidemia did not differ significantly between groups. *The LEfSe differential abundance analyses did not adjust for age or PSA.*
 
 ---
 
 ## 🔬Experiments Curated
 
 ### ⚗️Experiment 1
-- Comparison: Polycystic Ovary Syndrome (PCOS) vs Healthy Controls 
-- Sample size: 24 vs 24
-- Statistical method: Mann–Whitney U-test
-- Source figures/tables: Figure 2A, 2B, and Supplementary Figure S2 (phylum, order and family-level)
+- Comparison: Group 2 or High risk prostate cancer (PCa) vs Negative and low risk group 
+- Sample size: 58 vs 56
+- Statistical method: LEfSe
+- Source figures/tables: Figure 3A
 
 ### 🦠 Differentially Abundant Taxa
 - Increased in PCOS (Case)
-      - *Intrasporangiaceae*, *Nocardioidaceae*, *Comamonadaceae* etc.
-- Increased in Healthy Controls
-      - *Burkholderiaceae*, *Lachnospiraceae*, *Lactobacillaceae* etc
+      - *Alistipes*, *Christensenellaceae*, *Lachnobacterium*, *Lachnospira* etc. 
+- Increased in negative and low risk group
+      - *None reported (all significant taxa were enriched in the high-risk group)*
 
 ### ⚗️Experiment 2
-- Comparison: Polycystic Ovary Syndrome (PCOS) vs Healthy Controls 
-- Sample size: 24 vs 24
-- Statistical method: LEfSe (LDA > 3.0) 
-- Source figures/tables: Figure 3A (LDA barplot)
+- Comparison: Prostate cancer (PCa) and positive biopsy vs No prostate cancer (PCa) and negative biopsy 
+- Sample size: 72 vs 42
+- Statistical method: LEfSe
+- Source figures/tables: Supplementary Figure S2
 
 ### 🦠 Differentially Abundant Taxa
 - Increased in PCOS (Case)
-      - *Skermanella*, *Acinetobacter*, *Nocardioidaceae* etc
-- Increased in Healthy Controls
-      - *Burkholderia*, *Lactobacillus*, *Faecalibacterium*, etc
+      - *Alistipes*, *Lachnospira*, *Odoribacteraceae* etc
+- Increased in no prostrate cancer and negative biopsy
+      - *None reported (all significant taxa were enriched in prostate cancer group)*
 
 ---
 
 ## 🔢Statistical Analyses
 - Primary tests used for curation:
-      - Mann–Whitney U-test (Experiment 1)
-      - LEfSe (LDA > 3.0) (Experiment 2)
+      - LEfSe (for differential abundance) for both Experiment 1 and Experiment 2
 - Significance threshold:
-    - p < 0.05 for Mann–Whitney
-    - LDA > 3.0 and p < 0.05 for LEfSe
+    - p < 0.05
+    - LDA > 2.0 for LEfSe
 - Multiple testing correction: None
 
 ## Alpha Diversity
-- Metrics reported: Faith’s PD, Chao1, Observed OTUs
-- Direction of change: Significantly decreased in PCOS
-- Significance: All metrics p < 0.001
-- *Note: Alpha diversity was recorded as metadata for both experiments and was not curated as a separate experiment*
+- Metrics reported: Shannon and Richness
+- Direction of change: Unchanged (Not significant)
 
 ---
 
 ## 🗂️Data Sources
-- Figure 2A, 2B, Figure 3A and Supplementary Figure S2
+- Figure 3A and Supplementary Figure S2
 
 ---
 
 ## 🚫Excluded Analyses
 The following were excluded based on BugSigDB curation rules:
-- Figure 3B: Cladogram visualization of the same LEfSe results shown in Figure 3A; no unique taxa.
-- KEGG pathway analysis: Excluded — functional pathways are not curated in BugSigDB.
-- Alpha and Beta diversity analyses: Not curatable
-- Supplementary Figure S1: Overall sequencing proportion by taxonomic level — excluded; no significant taxon-level contrast shown, descriptive only.
+- Figure S2B (metastasis vs. no metastasis dot plots): The paper explicitly states no significant difference was found between PCa patients with and without metastasis for Rikenellaceae, Alistipes, or Lachnospira. No p-values or significance markers appear on the figure. Not curatable.
+- Table 2 (LASSO-selected taxa for FMPI): Excluded because LASSO is a predictive variable selection method, not a differential abundance test. No per-taxon p-values or significance thresholds were applied to the 18 selected genera individually. The FMPI composite score was statistically validated, but composite significance does not equal individual taxon significance. BugSigDB requires individually statistically significant taxa.
+- Table 3 (logistic regression for FMPI): Reports FMPI as a composite predictor of high-risk PCa. Not a taxon-level result.
+- Table 4 (summary of bacterial roles): Narrative classification of bacterial functions — not a results table with significance data.
+- ROC/AUC analyses (Figure 4) were excluded because they assess predictive performance, not differential microbial abundance.
+- Figure 3B and Figure S2C (KEGG pathway analyses): Functional/metabolic pathway results. BugSigDB captures taxon-level signatures only. Pathway findings were noted but fully excluded from all experiments and figures per curation policy.
 
 ---
 
 ## ✏️Curation Notes
-- Two separate experiments were created despite both statistical test comparing the same groups (PCOS vs. controls) and were not fully overlapping, per BugSigDB policy:
-    - Mann-Whitney and LEfSe use distinct statistical frameworks and report at different taxonomic resolutions — Mann-Whitney stops at family level while LEfSe resolves to genus level in several chains
-    - Antibiotic use within 3 months was an explicit exclusion criterion for all participants — recorded as "yes" for both experiments per BugSigDB curation policy.
+- Discovery vs. test cohort: Only the discovery cohort produced curatable differential abundance experiments (LEfSe analyses). The test cohort was used for predictive validation only and generated no independently curatable experiments.
+- Figure S2B deliberation: I initially flagged it as potentially curatable (metastasis comparison). But confirmed non-curatable after cross-checking both the figure (no significance markers) and the main text, which explicitly states no significant difference was found.
+- Antibiotic exclusion: Confirmed — men who used antibiotics within 6 months or whose antibiotic history was unknown were excluded at enrollment. This satisfies BugSigDB's antibiotic exclusion criterion.
+- Unannotated OTUs: Two OTUs in Figure 3A and one in Figure S2A had no taxonomic annotation. These were excluded from curation as BugSigDB requires valid taxon names resolvable in NCBI Taxonomy.
 
 ---
 
 ## 🗃️Metadata
-- Host: Homo sapiens
-- Disease/Condition: Polycystic ovary syndrome (PCOS)
-- Body site: Blood
-- Environment: Clinical (hospital-based recruitment, First Affiliated Hospital of Xi'an Jiaotong University, China)
-- Sequencing platform: Illumina MiSeq (16S rRNA gene, V3–V4)
+- Host: Homo sapiens (Japanese men, urban Osaka)
+- Disease/Condition: Prostate cancer
+- Body site: Rectum
+- Sequencing platform: Illumina MiSeq; 16S rRNA gene, V1–V2 variable region; 251-bp paired-end; OTU clustering at 97% similarity via UCLUST; annotated with RDP Classifier v2.2 against Greengenes 13_8
 
 ---
 
 ## 🧾Curation Summary
-This curation required carefully distinguishing between overlapping analyses and taxonomic levels. I applied BugSigDB rules to separate the study into two valid experiments: one based on Mann–Whitney family-level results and one based on LEfSe biomarker results. The process strengthened my understanding of hierarchical taxonomy decisions, experiment definition rules, and recognizing that uncontrolled confounders (age, BMI) are noted but not entered in the BugSigDB confounders field unless they were actually adjusted for in the model. The study also reinforced the importance of cross-referencing figure panels against text descriptions when discrepancies arise, as seen with Oxalobacteraceae and Bacteroidaceae. 
+This curation required several rounds of careful decision-making that deepened my understanding of BugSigDB policy application. The most instructive challenge was distinguishing study design: the study appeared case-control at first glance but was correctly reclassified as cross-sectional observational after close reading of the enrollment and grouping methods. 
 
-This curation contributes a clean, policy-compliant record of blood microbiome signatures associated with PCOS. This curation contributed to BugSigDB by adding the first blood microbiome study in PCOS, a body site and condition combination not previously represented in the database.
+A second major decision involved the LASSO-derived Table 2, which went through two reversals before being firmly excluded — this process clarified a fundamental principle: composite model significance does not substitute for individual taxon-level significance, and BugSigDB strictly requires the latter. The metastasis comparison (Figure S2B) required cross-checking both the figure and the main text to confirm non-significance. This study also reinforced the importance of NCBI taxonomy modernization, as the Greengenes database used by the authors employs phylum names now replaced under current nomenclature. 
 
+Overall, this curation contributed two experiments to BugSigDB capturing gut microbial signatures associated with high-grade prostate cancer in a Japanese cohort, a population and cancer type underrepresented in the existing database.
