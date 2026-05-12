@@ -80,14 +80,14 @@ The following were excluded based on BugSigDB curation rules:
 - Figure 3B: Cladogram visualization of the same LEfSe results shown in Figure 3A; no unique taxa.
 - KEGG pathway analysis: Excluded — functional pathways are not curated in BugSigDB.
 - Alpha and Beta diversity analyses: Not curatable
-- Supplementary Figure S1: Overall sequencing proportion by taxonomic level — excluded; no significant taxon-level contrast shown, descriptive only.
+- Supplementary Figure S1: Overall sequencing proportion by taxonomic level, excluded; no significant taxon-level contrast shown, descriptive only.
 
 ---
 
 ## ✏️Curation Notes
-- Two separate experiments were created despite both statistical test comparing the same groups (PCOS vs. controls) and were not fully overlapping, per BugSigDB policy:
+- Two separate experiments were created despite both statistical test comparing the same groups (PCOS vs. controls) and were not fully overlapping, per BugSigDB policy.
     - Mann-Whitney and LEfSe use distinct statistical frameworks and report at different taxonomic resolutions — Mann-Whitney stops at family level while LEfSe resolves to genus level in several chains
-    - Antibiotic use within 3 months was an explicit exclusion criterion for all participants — recorded as "yes" for both experiments per BugSigDB curation policy.
+    - Antibiotic use within 3 months was an explicit exclusion criterion for all participants recorded as "yes" for both experiments per BugSigDB curation policy.
 
 ---
 
