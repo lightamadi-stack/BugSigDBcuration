@@ -39,7 +39,7 @@ Confounders reported/controlled: None statistically controlled. **Menopausal sta
       - *Firmicutes*, *Lactobacillus*, *Atopobium* etc
 
 ### ⚗️Experiment 2 - 4
-- Comparison: Three-way — CC vs. OC vs. EC (each cancer type treated as case against the other two combined as reference) 
+- Comparison: Three-way: CC vs. OC vs. EC (each cancer type treated as case against the other two combined as reference) 
 - Sample size:
       - CC (n = 161) vs. OC + EC (n = 172)
       - OC (n = 71) vs. CC + EC (n = 262)
