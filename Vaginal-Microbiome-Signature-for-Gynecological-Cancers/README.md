@@ -27,80 +27,75 @@ Confounders reported/controlled: None statistically controlled. **Menopausal sta
 ## 🔬Experiments Curated
 
 ### ⚗️Experiment 1
-- Comparison: Polycystic Ovary Syndrome (PCOS) vs Healthy Controls 
-- Sample size: 24 vs 24
-- Statistical method: Mann–Whitney U-test
-- Source figures/tables: Figure 2A, 2B, and Supplementary Figure S2 (phylum, order and family-level)
+- Comparison: All gynecological cancer vs. healthy controls
+- Sample size: 348 vs 181
+- Statistical method: Wilcoxon rank-sum test (ASV level; P < 0.01 and log fold-change > 2.0) + LEfSe (phylum and genus level; LDA score > 2)
+- Source figures/tables: Figure 2i (LEfSe, phylum level), Figure 2j (LEfSe, genus level)
 
 ### 🦠 Differentially Abundant Taxa
 - Increased in PCOS (Case)
-      - *Intrasporangiaceae*, *Nocardioidaceae*, *Comamonadaceae* etc.
+      - *Proteobacteria*, *Prevotella*, *Staphylococcus* etc.
 - Increased in Healthy Controls
-      - *Burkholderiaceae*, *Lachnospiraceae*, *Lactobacillaceae* etc
+      - *Firmicutes*, *Lactobacillus*, *Atopobium* etc
 
-### ⚗️Experiment 2
-- Comparison: Polycystic Ovary Syndrome (PCOS) vs Healthy Controls 
-- Sample size: 24 vs 24
-- Statistical method: LEfSe (LDA > 3.0) 
-- Source figures/tables: Figure 3A (LDA barplot)
+### ⚗️Experiment 2 - 4
+- Comparison: Three-way — CC vs. OC vs. EC (each cancer type treated as case against the other two combined as reference) 
+- Sample size:
+      - CC (n = 161) vs. OC + EC (n = 172)
+      - OC (n = 71) vs. CC + EC (n = 262)
+      - EC (n = 101) vs. CC + OC (n = 232)
+- Statistical method: Wilcoxon rank-sum test (ASV level; P < 0.01 and log fold-change > 2.0) + LEfSe (phylum and genus level; LDA score > 2)
+- Source figures/tables: Figure 5g (LEfSe, phylum level), Figure 5h (LEfSe, genus level)
 
 ### 🦠 Differentially Abundant Taxa
-- Increased in PCOS (Case)
-      - *Skermanella*, *Acinetobacter*, *Nocardioidaceae* etc
-- Increased in Healthy Controls
-      - *Burkholderia*, *Lactobacillus*, *Faecalibacterium*, etc
+*(see the full list in: https://bugsigdb.org/38633411)*
 
 ---
 
 ## 🔢Statistical Analyses
 - Primary tests used for curation:
-      - Mann–Whitney U-test (Experiment 1)
-      - LEfSe (LDA > 3.0) (Experiment 2)
+      - LEfSe (phylum and genus level)
 - Significance threshold:
-    - p < 0.05 for Mann–Whitney
-    - LDA > 3.0 and p < 0.05 for LEfSe
-- Multiple testing correction: None
-
-## Alpha Diversity
-- Metrics reported: Faith’s PD, Chao1, Observed OTUs
-- Direction of change: Significantly decreased in PCOS
-- Significance: All metrics p < 0.001
-- *Note: Alpha diversity was recorded as metadata for both experiments and was not curated as a separate experiment*
+    - p < 0.05 and LDA > 2 
+- Multiple testing correction: Not reported for any differential abundance analysis
 
 ---
 
 ## 🗂️Data Sources
-- Figure 2A, 2B, Figure 3A and Supplementary Figure S2
+- Figure 2i, 2j, 5g, 5h
 
 ---
 
 ## 🚫Excluded Analyses
 The following were excluded based on BugSigDB curation rules:
-- Figure 3B: Cladogram visualization of the same LEfSe results shown in Figure 3A; no unique taxa.
-- KEGG pathway analysis: Excluded — functional pathways are not curated in BugSigDB.
-- Alpha and Beta diversity analyses: Not curatable
-- Supplementary Figure S1: Overall sequencing proportion by taxonomic level, excluded; no significant taxon-level contrast shown, descriptive only.
+- Figure 1 (pre- vs. post-menopausal comparison)No significant taxa — all results marked "NotSig" (green dots) in Wilcox plot (Figure 1g).
+- Figure 4 + Table 2 (random forest model)Machine learning feature importance scores — not differential abundance statistics; not curatable per BugSigDB policy.
+- Figure 6 (co-abundance network)Spearman correlation network topology — not taxon-level differential abundance; not curatableAll PCA / beta diversity plots.
+- Figures 1e–f, 2f–g, 3d–f, 5e–f)Beta diversity results — explicitly excluded per BugSigDB curation policyFigure.
 
 ---
 
 ## ✏️Curation Notes
-- Two separate experiments were created despite both statistical test comparing the same groups (PCOS vs. controls) and were not fully overlapping, per BugSigDB policy.
-    - Mann-Whitney and LEfSe use distinct statistical frameworks and report at different taxonomic resolutions — Mann-Whitney stops at family level while LEfSe resolves to genus level in several chains
-    - Antibiotic use within 3 months was an explicit exclusion criterion for all participants recorded as "yes" for both experiments per BugSigDB curation policy.
+- Study design decision logic: The study pools raw 16S rRNA-seq data from 10 independent public BioProjects and re-analyzes them as a single dataset. This was classified as *meta-analysis* under BugSigDB controlled vocabulary, as it synthesizes multiple primary studies. In this study, the authors re-analyze raw data (rather than synthesizing reported results).
+- Sequencing platform: Not explicitly named in the paper despite searching all Methods sections. Thus, papers (the 10 source BioProjects) used in this meta analysis were checked individually and I found that Illumina was the sequencing platform used.
+- Confounder handling: Menopausal status was the only variable examined analytically (sub-analysis, Figure 1), and found non-significant (P = 0.611). It was not adjusted for in any model. No other variables were controlled for. Hence, no confounders was controlled.
+- Three-group LEfSe (Experiment 2): BugSigDB expects pairwise case/control contrasts. The three-group LEfSe in Figure 5g/5h produces one-vs-others enrichments rather than strict pairwise comparisons. Each cancer type's enriched taxa were treated as a separate sub-experiment with the other two cancer types combined as reference.
+- Alpha diversity direction (Experiment 2): For OC and EC sub-experiments, the significant bracket (EC vs. OC, **) shows a clear direction between those two groups, but neither is significantly different from CC. This creates an inconsistent direction when the two reference groups are combined. I raised a question with the reviewer for guidance on how to record this. And i was told to leave all alpha diversity blank in the case of meta analysis.
 
 ---
 
 ## 🗃️Metadata
 - Host: Homo sapiens
-- Disease/Condition: Polycystic ovary syndrome (PCOS)
-- Body site: Blood
+- Disease/Condition: Gynecological cancer (pooled: cervical cancer, ovarian cancer, endometrial cancer, and other gynecological cancers)
+- Body site: Vagina
 - Environment: Clinical (hospital-based recruitment, First Affiliated Hospital of Xi'an Jiaotong University, China)
-- Sequencing platform: Illumina MiSeq (16S rRNA gene, V3–V4)
+- Sequencing platform: Illumina MiSeq (16S rRNA gene, V2–V5)
 
 ---
 
 ## 🧾Curation Summary
-This curation required carefully distinguishing between overlapping analyses and taxonomic levels. I applied BugSigDB rules to separate the study into two valid experiments: one based on Mann–Whitney family-level results and one based on LEfSe biomarker results. The process strengthened my understanding of hierarchical taxonomy decisions, experiment definition rules, and recognizing that uncontrolled confounders (age, BMI) are noted but not entered in the BugSigDB confounders field unless they were actually adjusted for in the model. The study also reinforced the importance of cross-referencing figure panels against text descriptions when discrepancies arise, as seen with Oxalobacteraceae and Bacteroidaceae. 
-
-This curation contributes a clean, policy-compliant record of blood microbiome signatures associated with PCOS. This curation contributed to BugSigDB by adding the first blood microbiome study in PCOS, a body site and condition combination not previously represented in the database.
-
+This curation involved a methodologically complex study due to its pooled secondary analysis design, multi-cancer scope, and three-group comparisons. Key learning points included: 
+- Distinguishing between primary cohort studies and secondary pooled analyses for study design classification.
+- Applying careful judgment about which figures contain statistically significant taxon-level results versus descriptive composition plots.
+- Handling three-group LEfSe comparisons.
+- Identifying when alpha diversity directions are ambiguous due to inconsistent pairwise significance and escalating that appropriately to a reviewer rather than making an unsupported inference.
