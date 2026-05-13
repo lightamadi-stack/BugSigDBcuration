@@ -97,5 +97,5 @@ The following were excluded based on BugSigDB curation rules:
 This curation involved a methodologically complex study due to its pooled secondary analysis design, multi-cancer scope, and three-group comparisons. Key learning points included: 
 - Distinguishing between primary cohort studies and secondary pooled analyses for study design classification.
 - Applying careful judgment about which figures contain statistically significant taxon-level results versus descriptive composition plots.
-- Handling three-group LEfSe comparisons.
+- Curating numerous taxa from three-group LEfSe comparisons.
 - Identifying when alpha diversity directions are ambiguous due to inconsistent pairwise significance and escalating that appropriately to a reviewer rather than making an unsupported inference.
