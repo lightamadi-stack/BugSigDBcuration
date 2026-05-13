@@ -68,10 +68,10 @@ Confounders reported/controlled: None statistically controlled. **Menopausal sta
 
 ## 🚫Excluded Analyses
 The following were excluded based on BugSigDB curation rules:
-- Figure 1 (pre- vs. post-menopausal comparison)No significant taxa — all results marked "NotSig" (green dots) in Wilcox plot (Figure 1g).
-- Figure 4 + Table 2 (random forest model)Machine learning feature importance scores — not differential abundance statistics; not curatable per BugSigDB policy.
-- Figure 6 (co-abundance network)Spearman correlation network topology — not taxon-level differential abundance; not curatableAll PCA / beta diversity plots.
-- Figures 1e–f, 2f–g, 3d–f, 5e–f)Beta diversity results — explicitly excluded per BugSigDB curation policyFigure.
+- Figure 1 (pre- vs. post-menopausal comparison)No significant taxa, all results marked "NotSig" (green dots) in Wilcox plot (Figure 1g).
+- Figure 4 + Table 2 (random forest model)Machine learning feature importance scores not differential abundance statistics; not curatable per BugSigDB policy.
+- Figure 6 (co-abundance network)Spearman correlation network topology, not taxon-level differential abundance; not curatableAll PCA / beta diversity plots.
+- Figures 1e–f, 2f–g, 3d–f, 5e–f)Beta diversity results explicitly excluded per BugSigDB curation policyFigure.
 
 ---
 
