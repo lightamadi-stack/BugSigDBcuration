@@ -9,7 +9,7 @@ Fagö-Olsen H., Dines L.M., Sørensen C.H., Jensen A. (2019). *The Adenoids but 
 ---
 
 ## 📘Study Overview
-This study investigated the combined role of the palatine tonsils and adenoids as reservoirs for potential pathogens associated with secretory otitis media (SOM) in small children aged 1–5 years. Using 16S rRNA gene pyrosequencing, the authors characterized and compared the crypt microbiomes of both anatomical sites in two clinical groups: children with adenoid/tonsil hyperplasia without prior infection (HP group) and children with SOM. The study demonstrated that the adenoids, but not the palatine tonsils, serve as the primary reservoir for the classical otitis media pathogens Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis.
+This study investigated the combined role of the palatine tonsils and adenoids as reservoirs for potential pathogens associated with secretory otitis media (SOM) in small children aged 1-5 years. Using 16S rRNA gene pyrosequencing, the authors characterized and compared the crypt microbiomes of both anatomical sites in two clinical groups: children with adenoid/tonsil hyperplasia without prior infection (HP group) and children with SOM. The study demonstrated that the adenoids, but not the palatine tonsils, serve as the primary reservoir for the classical otitis media pathogens Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis.
 
 ---
 
