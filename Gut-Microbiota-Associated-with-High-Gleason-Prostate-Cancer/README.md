@@ -9,7 +9,6 @@ Matsushita M., Fujita K., Motooka D., Hatano K., Fukae S., Kawamura N., Tomiyama
 ---
 
 ## 📘Study Overview
-Study Overview
 This study investigated the association between gut microbiota composition and high-grade prostate cancer (PCa) in Japanese men. 152 men suspected of PCa undergoing prostate biopsy were recruited across three hospitals in Osaka, Japan. Rectal swab samples were collected before biopsy and analyzed using 16S rRNA gene sequencing (V1–V2 region). Participants were divided into a high-risk group (Grade Group ≥ 2 PCa) and a negative + low-risk group (negative biopsy or Grade Group 1 PCa). The study also developed a composite predictive index — the Fecal Microbiome Prostate Index (FMPI) — from 18 LASSO-selected bacterial genera, which outperformed PSA testing in detecting high-risk PCa.
 
 ---
