@@ -58,6 +58,7 @@ Open each folder and view the README.md file to explore the curated taxa, the de
 - [Blood Bacterial 16S rRNA Gene Alterations in Women with Polycystic Ovary Syndrome (PCOS), 2022](Blood-Bacterial-16S-rRNA-Gene-Alterations-in-Women-with-Polycystic-Ovary-Syndrome)
 - [The Gut Microbiota Associated with High-Gleason Prostate Cancer](Gut-Microbiota-Associated-with-High-Gleason-Prostate-Cancer)
 - [Highly Specific Vaginal Microbiome Signature for Gynecological Cancers](Vaginal-Microbiome-Signature-for-Gynecological-Cancers)
+- [The Adenoids but Not the Palatine Tonsils Serve as a Reservoir for Bacteria Associated with Secretory Otitis Media in Small Children](Reservoir-for-Bacteria-Associated-with-Secretory-Otitis-Media-in-Small-Children)
 
 ---
 
