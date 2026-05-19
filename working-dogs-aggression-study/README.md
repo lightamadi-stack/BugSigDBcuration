@@ -95,16 +95,6 @@ The following were excluded based on BugSigDB curation rules:
 
 ---
 
-## Confounders Considered
-Controlled analytically through PCA and subgroup analyses:
-- Breed  
-- Sex  
-- Geographic location  
-- Diet  
-- Age  
-
----
-
 ## Curation Notes
 - Study design classified as cross-sectional based on sampling strategy and absence of pre-defined case/control recruitment.  
 - Matching reported in the paper applies only to a non-curatable subset and was excluded.  
