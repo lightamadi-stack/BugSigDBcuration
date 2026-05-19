@@ -9,8 +9,7 @@ Fagö-Olsen H., Dines L.M., Sørensen C.H., Jensen A. (2019). *The Adenoids but 
 ---
 
 ## 📘Study Overview
-Study Overview
-This study investigated the association between gut microbiota composition and high-grade prostate cancer (PCa) in Japanese men. 152 men suspected of PCa undergoing prostate biopsy were recruited across three hospitals in Osaka, Japan. Rectal swab samples were collected before biopsy and analyzed using 16S rRNA gene sequencing (V1–V2 region). Participants were divided into a high-risk group (Grade Group ≥ 2 PCa) and a negative + low-risk group (negative biopsy or Grade Group 1 PCa). The study also developed a composite predictive index — the Fecal Microbiome Prostate Index (FMPI) — from 18 LASSO-selected bacterial genera, which outperformed PSA testing in detecting high-risk PCa.
+This study investigated the combined role of the palatine tonsils and adenoids as reservoirs for potential pathogens associated with secretory otitis media (SOM) in small children aged 1–5 years. Using 16S rRNA gene pyrosequencing, the authors characterized and compared the crypt microbiomes of both anatomical sites in two clinical groups: children with adenoid/tonsil hyperplasia without prior infection (HP group) and children with SOM. The study demonstrated that the adenoids, but not the palatine tonsils, serve as the primary reservoir for the classical otitis media pathogens Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis.
 
 ---
 
