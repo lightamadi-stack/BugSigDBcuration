@@ -14,94 +14,100 @@ This study investigated the combined role of the palatine tonsils and adenoids a
 ---
 
 ## 🧪Study Design
-- Design type: Cross-sectional observational, not case-control. *Although groups were defined by disease status, all participants were enrolled under the same criterion (suspected PCa, undergoing biopsy) at a single time point. Group membership was determined retrospectively after biopsy results, with no deliberate case/control recruitment, no matching, and no follow-up. The microbiome data were analyzed at one time point only*.
+- Design type: Case-control (Experiments 1, 2, and 3).
 - Host species: Homo sapiens
-- Sample size: 152 total (discovery cohort: n = 114; external test cohort: n = 38)
+- Sample size: 28 children total (14 HP group, 14 SOM group); 56 samples analyzed (28 adenoid + 28 tonsil)
 - Groups compared:
-    - Men with prostate cancer (PCa) and positive biopsy *(Group 1)* VS Men without prostate cancer (PCa) and negative biopsy *(Group 0)*
-    - Men with grade group 2 or higher risk prostate cancer (PCa) *(Group 1)* VS men with negative and low risk group *(Group 0)
-Confounders reported/controlled: Age and PSA were significantly higher in the high-risk group (Table 1). BMI, family history, LUTS, smoking, alcohol consumption, dietary habits, diabetes, hypertension, and dyslipidemia did not differ significantly between groups. *The LEfSe differential abundance analyses did not adjust for age or PSA.*
+    - HP group (hyperplasia, no AOM/SOM in prior year) vs. SOM group (secretory otitis media)
+    - Adenoids vs. palatine tonsils (pooled across both clinical groups)
 
 ---
 
 ## 🔬Experiments Curated
 
 ### ⚗️Experiment 1
-- Comparison: Group 2 or High risk prostate cancer (PCa) vs Negative and low risk group 
-- Sample size: 58 vs 56
+- Comparison: HP group (control) vs. SOM group (case), adenoid samples
+- Body site: Nasopharynx (adenoids)
+- Sample size: 14 vs 14
 - Statistical method: LEfSe
-- Source figures/tables: Figure 3A
+- Source figures/tables: Figure 7B
 
 ### 🦠 Differentially Abundant Taxa
-- Increased in PCOS (Case)
-      - *Alistipes*, *Christensenellaceae*, *Lachnobacterium*, *Lachnospira* etc. 
-- Increased in negative and low risk group
-      - *None reported (all significant taxa were enriched in the high-risk group)*
+- Increased in SOM, adenoids (Case)
+      - *Neisseria flavescens*, *Haemophilus parainfluenzae*, *Granulicatella adiacens* etc. 
+- Increased in HP adenoids (Control)
+      - *Streptococcus pneumoniae*, *Porphyromonas pasteri*, *Fusobacterium periodonticum* etc
 
 ### ⚗️Experiment 2
-- Comparison: Prostate cancer (PCa) and positive biopsy vs No prostate cancer (PCa) and negative biopsy 
-- Sample size: 72 vs 42
+- Comparison: HP group (control) vs. SOM group (case), palatine tonsil samples
+- Body site: Palatine tonsil
+- Sample size: 14 vs 14
 - Statistical method: LEfSe
-- Source figures/tables: Supplementary Figure S2
+- Source figures/tables: Figure 7A 
 
 ### 🦠 Differentially Abundant Taxa
-- Increased in PCOS (Case)
-      - *Alistipes*, *Lachnospira*, *Odoribacteraceae* etc
-- Increased in no prostrate cancer and negative biopsy
-      - *None reported (all significant taxa were enriched in prostate cancer group)*
+- Increased in SOM tonsils (Case)
+      - *Prevotella nanceiensis*, *Prevotella salivae*, *Neisseria meningitidis/cinerea* etc
+- Increased in HP tonsils (control)
+      - *Neisseria flavescens*, *Fusobacterium periodonticum*, *Haemophilus parainfluenzae* etc.
+
+### ⚗️Experiment 3
+- Comparison: Palatine tonsils (Group 0) vs. adenoids (Group 1), collapsed across HP and SOM groups
+- Body site: Palatine tonsil (Group 0) vs. nasopharynx/adenoids (Group 1)
+- Statistical method: LEfSe
+- Source figures/tables: Figure 7C 
+
+### 🦠 Differentially Abundant Taxa
+- Increased in Adenoids (Case)
+      - *Streptococcus pneumoniae*, *Moraxella catarrhalis*, *Haemophilus influenzae* etc.
+- Increased in Tonsils (control)
+      - *Flavobacteriaceae*, *Capnocytophaga leadbetteri*, *Fusobacterium periodonticum* etc.
 
 ---
 
 ## 🔢Statistical Analyses
 - Primary tests used for curation:
-      - LEfSe (for differential abundance) for both Experiment 1 and Experiment 2
+      - LEfSe (Linear Discriminant Analysis Effect Size) for differential abundance
 - Significance threshold:
     - p < 0.05
-    - LDA > 2.0 for LEfSe
+    - LDA > 3.5 for LEfSe
 - Multiple testing correction: None
-
-## Alpha Diversity
-- Metrics reported: Shannon and Richness
-- Direction of change: Unchanged (Not significant)
 
 ---
 
 ## 🗂️Data Sources
-- Figure 3A and Supplementary Figure S2
+- Figure 7A, 7B, and Figure 7C
 
 ---
 
 ## 🚫Excluded Analyses
 The following were excluded based on BugSigDB curation rules:
-- Figure S2B (metastasis vs. no metastasis dot plots): The paper explicitly states no significant difference was found between PCa patients with and without metastasis for Rikenellaceae, Alistipes, or Lachnospira. No p-values or significance markers appear on the figure. Not curatable.
-- Table 2 (LASSO-selected taxa for FMPI): Excluded because LASSO is a predictive variable selection method, not a differential abundance test. No per-taxon p-values or significance thresholds were applied to the 18 selected genera individually. The FMPI composite score was statistically validated, but composite significance does not equal individual taxon significance. BugSigDB requires individually statistically significant taxa.
-- Table 3 (logistic regression for FMPI): Reports FMPI as a composite predictor of high-risk PCa. Not a taxon-level result.
-- Table 4 (summary of bacterial roles): Narrative classification of bacterial functions — not a results table with significance data.
-- ROC/AUC analyses (Figure 4) were excluded because they assess predictive performance, not differential microbial abundance.
-- Figure 3B and Figure S2C (KEGG pathway analyses): Functional/metabolic pathway results. BugSigDB captures taxon-level signatures only. Pathway findings were noted but fully excluded from all experiments and figures per curation policy.
+- Beta diversity
+- Fig S2 (correlation analysis): Not curatable — reports within-subject correlation between anatomical sites, not between-group differential abundance.
+- Fig 2 (Venn diagram), Fig 3 (phylogenetic tree), Fig 4 (OTU box plots), Fig 5 (phylum/genus bar plots): Descriptive only; no formal taxon-level significance testing.
+- Table S1–S5: Descriptive data tables or culture results; no taxon-level differential abundance statistics.
+- Fig 8: Supporting visualization of the adenoids vs. tonsils pattern for three species (S. pneumoniae, H. influenzae, M. catarrhalis); results already captured via Fig 7C.
 
 ---
 
 ## ✏️Curation Notes
-- Discovery vs. test cohort: Only the discovery cohort produced curatable differential abundance experiments (LEfSe analyses). The test cohort was used for predictive validation only and generated no independently curatable experiments.
-- Figure S2B deliberation: I initially flagged it as potentially curatable (metastasis comparison). But confirmed non-curatable after cross-checking both the figure (no significance markers) and the main text, which explicitly states no significant difference was found.
-- Antibiotic exclusion: Confirmed — men who used antibiotics within 6 months or whose antibiotic history was unknown were excluded at enrollment. This satisfies BugSigDB's antibiotic exclusion criterion.
-- Unannotated OTUs: Two OTUs in Figure 3A and one in Figure S2A had no taxonomic annotation. These were excluded from curation as BugSigDB requires valid taxon names resolvable in NCBI Taxonomy.
+- Figure 7 panel labelling discrepancy: A discrepancy exists between the Results text and Figure 7 regarding panels A and B. The Results text describes Fig 7A as the tonsil comparison and Fig 7B as the adenoid comparison, but the taxa attributed to each panel in the text do not match the panel contents, S. pneumoniae, F. nucleatum subsp. vincentii, and Eikenella corrodens are described as adenoid taxa yet appear in the panel labelled 7A, while Actinobacteria is described as a tonsil taxon yet appears in the panel labelled 7B. The figure caption has been followed as the authoritative source, as it explicitly assigns *(A) tonsils, (B) adenoids.* Taxon directionality has been read directly from the figure bars. Reviewers should verify signatures against the figure panels directly.
+- Alpha diversity directionality: Alpha diversity is reported relative to Group 1 (case/exposed group) per BugSigDB convention. For Experiment 2, HP adenoids have lower diversity than SOM adenoids, meaning alpha diversity is increased in Group 1 (SOM adenoids).
+- Multiple unclassified Haemophilus OTUs in Fig 7A: Multiple unclassified Haemophilus OTUs appeared on both sides of the LEfSe plot. Since these cannot be distinguished at genus level in NCBI taxonomy, Haemophilus was entered once in the decreased signature only (decreased in Group 1, SOM tonsils), based on the higher LDA score of the OTU on that side.
+- Multiple unclassified Streptococcus OTUs: Three unclassified Streptococcus OTUs appeared in Fig 7A. Since none could be resolved to species level, Streptococcus was entered once at genus level per signature direction.
 
 ---
 
 ## 🗃️Metadata
-- Host: Homo sapiens (Japanese men, urban Osaka)
-- Disease/Condition: Prostate cancer
-- Body site: Rectum
-- Sequencing platform: Illumina MiSeq; 16S rRNA gene, V1–V2 variable region; 251-bp paired-end; OTU clustering at 97% similarity via UCLUST; annotated with RDP Classifier v2.2 against Greengenes 13_8
+- Host: Homo sapiens (small children)
+- Disease/Condition: Otitis media with effusion
+- Body site: Upper respiratory tract (palatine tonsil crypts; nasopharyngeal adenoid crypts)
+- Sequencing platform: 454 pyrosequencing (Roche454)
+- Antibiotic exclusion: Yes — participants excluded if antibiotics used within 1 month prior to surgery
 
 ---
 
 ## 🧾Curation Summary
-This curation required several rounds of careful decision-making that deepened my understanding of BugSigDB policy application. The most instructive challenge was distinguishing study design: the study appeared case-control at first glance but was correctly reclassified as cross-sectional observational after close reading of the enrollment and grouping methods. 
+This curation involved a structurally complex study with two body sites, two clinical groups, and three distinct curatable experiments. Key learning points included: navigating a 2×2 multi-group design and decomposing it into pairwise comparisons per BugSigDB policy; handling a published figure panel labelling error and applying the figure caption as the authoritative source over the Results text; resolving ambiguous taxon entries where multiple unclassified OTUs of the same genus appeared on both sides of a LEfSe plot; correctly assigning alpha diversity directionality relative to Group 1; and distinguishing between rarefaction as a normalization step versus data transformation for BugSigDB entry. 
 
-A second major decision involved the LASSO-derived Table 2, which went through two reversals before being firmly excluded — this process clarified a fundamental principle: composite model significance does not substitute for individual taxon-level significance, and BugSigDB strictly requires the latter. The metastasis comparison (Figure S2B) required cross-checking both the figure and the main text to confirm non-significance. This study also reinforced the importance of NCBI taxonomy modernization, as the Greengenes database used by the authors employs phylum names now replaced under current nomenclature. 
-
-Overall, this curation contributed two experiments to BugSigDB capturing gut microbial signatures associated with high-grade prostate cancer in a Japanese cohort, a population and cancer type underrepresented in the existing database.
-
+This study contributes three experiments to BugSigDB documenting microbial signatures in the upper respiratory tract of young children in the context of secretory otitis media and adenoid hyperplasia.
