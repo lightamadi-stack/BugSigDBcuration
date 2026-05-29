@@ -63,13 +63,6 @@ Matching variables: Age (21 weeks at randomization), sex (all male), strain (C57
 
 ---
 
-## ✏️Curation Notes
-- Two separate experiments were created despite both statistical test comparing the same groups (PCOS vs. controls) and were not fully overlapping, per BugSigDB policy.
-    - Mann-Whitney and LEfSe use distinct statistical frameworks and report at different taxonomic resolutions — Mann-Whitney stops at family level while LEfSe resolves to genus level in several chains
-    - Antibiotic use within 3 months was an explicit exclusion criterion for all participants recorded as "yes" for both experiments per BugSigDB curation policy.
-
----
-
 ## 🗃️Metadata
 - Host: Mus musculus (C57BL/6J, male)
 - Body site: Feces
