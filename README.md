@@ -60,6 +60,7 @@ Open each folder and view the README.md file to explore the curated taxa, the de
 - [Highly Specific Vaginal Microbiome Signature for Gynecological Cancers](Vaginal-Microbiome-Signature-for-Gynecological-Cancers)
 - [The Adenoids but Not the Palatine Tonsils Serve as a Reservoir for Bacteria Associated with Secretory Otitis Media in Small Children](Reservoir-for-Bacteria-Associated-with-Secretory-Otitis-Media-in-Small-Children)
 - [Differential Effects of Sulfur Amino Acid-Restricted and Low-Calorie Diets on Gut Microbiome Profile and Bile Acid Composition](Effects-of-Sulfur-Amino-Acid-Restricted-Diet-and-Low-Calorie-Diets-on-Gut-Microbiome)
+- [Main differential endometrial microbiota associated with recurrent implantation failure: a case control study](https://bugsigdb.org/40862108)
 
 ---
 
