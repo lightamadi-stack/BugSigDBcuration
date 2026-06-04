@@ -28,20 +28,7 @@ I contribute by:
 - Documenting study design, matching, confounders, and significant taxa
 - Engaging in team-based collaboration
 
-## 📁 Repository Structure
-
-Each study folder represents one curated paper and includes a README.md with:
-- Full paper citation
-- Study overview
-- Curated experiments
-- Statistical methods/tests used
-- Significant differentially abundant taxa (increased and decreased)
-- Alpha diversity results
-- NCBI Taxonomy IDs
-- Notes on curation decisions and exclusions
-
-This makes each curation fully reproducible and verifiable.
-
+---
 *All curations follow the official BugSigDB curation policy.* 
 
 - [Gut Microbiota Composition in Pregnant Women with Preeclampsia, 2025](preeclampsia_gut_microbiome/)
@@ -66,7 +53,6 @@ This makes each curation fully reproducible and verifiable.
 - [Exploring the characteristics of gut microbiota in the development and progression of early-stage colorectal cancer based on metagenomic sequencing](https://bugsigdb.org/41356476)
 - [Aging characteristics of colorectal cancer based on gut microbiota](https://bugsigdb.org/37548332)
 - [Metagenomic analysis of the interaction between the gut microbiota and colorectal cancer: a paired-sample study based on the GMrepo database](https://bugsigdb.org/36564826)
-- 
 
 ---
 
