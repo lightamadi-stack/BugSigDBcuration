@@ -44,10 +44,6 @@ This makes each curation fully reproducible and verifiable.
 
 *All curations follow the official BugSigDB curation policy.* 
 
-## 📂 How to Navigate This Portfolio
-
-Each curated study is stored in its own folder:
-Open each folder and view the README.md file to explore the curated taxa, the decisions made during the curation process, and the associated study metadata.
 - [Gut Microbiota Composition in Pregnant Women with Preeclampsia, 2025](preeclampsia_gut_microbiome/)
 - [Gut Microbiota in Children with Intoxication-Type Inborn Errors of Metabolism (IEMs), 2026](inborn-errors-metabolism-gut-microbiome)
 - [Gut Microbiota and Aggressive Behavior in Working Dogs, 2025](working-dogs-aggression-study)
@@ -61,6 +57,10 @@ Open each folder and view the README.md file to explore the curated taxa, the de
 - [The Adenoids but Not the Palatine Tonsils Serve as a Reservoir for Bacteria Associated with Secretory Otitis Media in Small Children](Reservoir-for-Bacteria-Associated-with-Secretory-Otitis-Media-in-Small-Children)
 - [Differential Effects of Sulfur Amino Acid-Restricted and Low-Calorie Diets on Gut Microbiome Profile and Bile Acid Composition](Effects-of-Sulfur-Amino-Acid-Restricted-Diet-and-Low-Calorie-Diets-on-Gut-Microbiome)
 - [Main differential endometrial microbiota associated with recurrent implantation failure: a case control study](https://bugsigdb.org/40862108)
+- [Metagenomic analysis reveals the novel role of vaginal Lactobacillus iners in Chinese healthy pregnant women](https://bugsigdb.org/40447596)
+- [Unraveling the Dysbiosis of Vaginal Microbiome to Understand Cervical Cancer Disease Etiology-An Explainable AI Approach](https://bugsigdb.org/37107694)
+- [Metagenomics of Parkinson's disease implicates the gut microbiome in multiple disease mechanisms](https://bugsigdb.org/36376318)
+- 
 
 ---
 
