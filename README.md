@@ -53,6 +53,7 @@ I contribute by:
 - [Exploring the characteristics of gut microbiota in the development and progression of early-stage colorectal cancer based on metagenomic sequencing](https://bugsigdb.org/41356476)
 - [Aging characteristics of colorectal cancer based on gut microbiota](https://bugsigdb.org/37548332)
 - [Metagenomic analysis of the interaction between the gut microbiota and colorectal cancer: a paired-sample study based on the GMrepo database](https://bugsigdb.org/36564826)
+- [Gut microbiome differences and disease risk in colorectal cancer relatives and healthy individuals](https://bugsigdb.org/40196042)
 
 ---
 
