@@ -29,6 +29,7 @@ I contribute by:
 - Engaging in team-based collaboration
 
 ---
+## 🧫 My Curations
 *All curations follow the official BugSigDB curation policy.* 
 
 - [Gut Microbiota Composition in Pregnant Women with Preeclampsia, 2025](preeclampsia_gut_microbiome/)
@@ -55,6 +56,7 @@ I contribute by:
 - [Metagenomic analysis of the interaction between the gut microbiota and colorectal cancer: a paired-sample study based on the GMrepo database](https://bugsigdb.org/36564826)
 - [Gut microbiome differences and disease risk in colorectal cancer relatives and healthy individuals](https://bugsigdb.org/40196042)
 - [Altered gut microbiome composition by appendectomy contributes to colorectal cancer](https://bugsigdb.org/36539569)
+- [Using whole-genome sequencing (WGS) to plot colorectal cancer-related gut microbiota in a population with varied geography](https://bugsigdb.org/36578080)
 
 ---
 
