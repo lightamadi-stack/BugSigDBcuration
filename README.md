@@ -58,6 +58,7 @@ I contribute by:
 - [Altered gut microbiome composition by appendectomy contributes to colorectal cancer](https://bugsigdb.org/36539569)
 - [Using whole-genome sequencing (WGS) to plot colorectal cancer-related gut microbiota in a population with varied geography](https://bugsigdb.org/36578080)
 - [Metagenome Analysis of Intestinal Bacteria in Healthy People, Patients With Inflammatory Bowel Disease and Colorectal Cancer](https://bugsigdb.org/33738265)
+- [Multi-omic profiling reveals associations between the gut microbiome, host genome and transcriptome in patients with colorectal cancer](https://bugsigdb.org/38369542)
 
 ---
 
