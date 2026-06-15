@@ -51,6 +51,7 @@ I contribute by:
 - [Tear film microbiome in Sjogren's and non-Sjogren's aqueous deficiency dry eye](https://bugsigdb.org/37026303)
 - [The gut microbiome and metabolome associate with Schistosoma mansoni infection and cardiovascular disease risk in Uganda](https://bugsigdb.org/41639095)
 - [High-resolution metagenomic characterization of gut microbiota composition and functional pathways in irritable bowel syndrome](https://bugsigdb.org/42162115)
+- [Metagenomics of Parkinson's disease implicates the gut microbiome in multiple disease mechanisms](https://bugsigdb.org/36376318)
 - [Exploring the characteristics of gut microbiota in the development and progression of early-stage colorectal cancer based on metagenomic sequencing](https://bugsigdb.org/41356476)
 - [Aging characteristics of colorectal cancer based on gut microbiota](https://bugsigdb.org/37548332)
 - [Metagenomic analysis of the interaction between the gut microbiota and colorectal cancer: a paired-sample study based on the GMrepo database](https://bugsigdb.org/36564826)
