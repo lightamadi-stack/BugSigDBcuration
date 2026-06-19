@@ -62,6 +62,7 @@ I contribute by:
 - [Multi-omic profiling reveals associations between the gut microbiome, host genome and transcriptome in patients with colorectal cancer](https://bugsigdb.org/38369542)
 - [Colorectal cancer, Vitamin D and microbiota: A double-blind Phase II randomized trial (ColoViD) in colorectal cancer patients](https://bugsigdb.org/36279751)
 - [Characterization of tongue coating microbiome from patients with colorectal cancer](https://bugsigdb.org/38686186)
+- [Nutrition-wide association study of microbiome diversity and composition in colorectal cancer patients](https://bugsigdb.org/35701733)
 
 ---
 
