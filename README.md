@@ -63,6 +63,7 @@ I contribute by:
 - [Colorectal cancer, Vitamin D and microbiota: A double-blind Phase II randomized trial (ColoViD) in colorectal cancer patients](https://bugsigdb.org/36279751)
 - [Characterization of tongue coating microbiome from patients with colorectal cancer](https://bugsigdb.org/38686186)
 - [Nutrition-wide association study of microbiome diversity and composition in colorectal cancer patients](https://bugsigdb.org/35701733)
+- [Gut microbiota profiles in feces and paired tumor and non-tumor tissues from Colorectal Cancer patients. Relationship to the Body Mass Index](https://bugsigdb.org/37796924)
 
 ---
 
