@@ -65,6 +65,7 @@ I contribute by:
 - [Nutrition-wide association study of microbiome diversity and composition in colorectal cancer patients](https://bugsigdb.org/35701733)
 - [Gut microbiota profiles in feces and paired tumor and non-tumor tissues from Colorectal Cancer patients. Relationship to the Body Mass Index](https://bugsigdb.org/37796924)
 - [Profiling gut microbiota of colorectal cancer in Indonesia: a focus on beneficial taxa depletion](https://bugsigdb.org/41827059)
+- [Colorectal Cancer Patients Have Four Specific Bacterial Species in Oral and Gut Microbiota in Common-A Metagenomic Comparison with Healthy Subjects](https://bugsigdb.org/34283063)
 
 ---
 
