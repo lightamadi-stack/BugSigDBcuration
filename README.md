@@ -67,6 +67,7 @@ I contribute by:
 - [Profiling gut microbiota of colorectal cancer in Indonesia: a focus on beneficial taxa depletion](https://bugsigdb.org/41827059)
 - [Colorectal Cancer Patients Have Four Specific Bacterial Species in Oral and Gut Microbiota in Common-A Metagenomic Comparison with Healthy Subjects](https://bugsigdb.org/34283063)
 - [Fecal Microbiota Strongly Correlates with Tissue Microbiota Composition in Colorectal Cancer but Not in Non-Small Cell Lung Cancer](https://bugsigdb.org/39859429)
+- [Oral Microbiota Alterations and Potential Salivary Biomarkers in Colorectal Cancer: A Next-Generation Sequencing Study](https://bugsigdb.org/41599027)
 ---
 
 ## 🔬 My Interests
