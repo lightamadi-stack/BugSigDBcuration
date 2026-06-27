@@ -91,4 +91,4 @@ This portfolio reflects my interests in:
 
 ## 📫 Contact
 
-If you have questions about any curation, feel free to open an issue or contact me: https://github.com/lightamadi-stack 
+If you have questions about any curation, feel free to contact me: https://github.com/lightamadi-stack 
