@@ -68,6 +68,7 @@ I contribute by:
 - [Colorectal Cancer Patients Have Four Specific Bacterial Species in Oral and Gut Microbiota in Common-A Metagenomic Comparison with Healthy Subjects](https://bugsigdb.org/34283063)
 - [Fecal Microbiota Strongly Correlates with Tissue Microbiota Composition in Colorectal Cancer but Not in Non-Small Cell Lung Cancer](https://bugsigdb.org/39859429)
 - [Oral Microbiota Alterations and Potential Salivary Biomarkers in Colorectal Cancer: A Next-Generation Sequencing Study](https://bugsigdb.org/41599027)
+- [Metagenomic Signatures of Colorectal Cancer in the Jordanian Population: A Regional Case-Control Analysis Using 16S rRNA Profiling](https://bugsigdb.org/40871467)
 ---
 
 ## 🔬 My Interests
