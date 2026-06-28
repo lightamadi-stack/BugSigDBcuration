@@ -69,6 +69,7 @@ I contribute by:
 - [Fecal Microbiota Strongly Correlates with Tissue Microbiota Composition in Colorectal Cancer but Not in Non-Small Cell Lung Cancer](https://bugsigdb.org/39859429)
 - [Oral Microbiota Alterations and Potential Salivary Biomarkers in Colorectal Cancer: A Next-Generation Sequencing Study](https://bugsigdb.org/41599027)
 - [Metagenomic Signatures of Colorectal Cancer in the Jordanian Population: A Regional Case-Control Analysis Using 16S rRNA Profiling](https://bugsigdb.org/40871467)
+- [Alterations in co-abundant bacteriome in colorectal cancer and its persistence after surgery: a pilot study](https://bugsigdb.org/35701595)
 ---
 
 ## 🔬 My Interests
