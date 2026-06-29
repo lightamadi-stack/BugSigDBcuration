@@ -70,6 +70,7 @@ I contribute by:
 - [Oral Microbiota Alterations and Potential Salivary Biomarkers in Colorectal Cancer: A Next-Generation Sequencing Study](https://bugsigdb.org/41599027)
 - [Metagenomic Signatures of Colorectal Cancer in the Jordanian Population: A Regional Case-Control Analysis Using 16S rRNA Profiling](https://bugsigdb.org/40871467)
 - [Alterations in co-abundant bacteriome in colorectal cancer and its persistence after surgery: a pilot study](https://bugsigdb.org/35701595)
+- [Differences in the On- and Off-Tumor Microbiota between Right- and Left-Sided Colorectal Cancer](https://bugsigdb.org/34065545)
 ---
 
 ## 🔬 My Interests
