@@ -72,6 +72,7 @@ I contribute by:
 - [Alterations in co-abundant bacteriome in colorectal cancer and its persistence after surgery: a pilot study](https://bugsigdb.org/35701595)
 - [Differences in the On- and Off-Tumor Microbiota between Right- and Left-Sided Colorectal Cancer](https://bugsigdb.org/34065545)
 - [Effect of breast milk with or without bacteria on infant gut microbiota](https://bugsigdb.org/35883060)
+- [Association between vaginal microbiome alteration and povidone iodine use during delivery](https://bugsigdb.org/37978422)
 ---
 
 ## 🔬 My Interests
