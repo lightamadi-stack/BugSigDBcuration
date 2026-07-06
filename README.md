@@ -73,6 +73,7 @@ I contribute by:
 - [Differences in the On- and Off-Tumor Microbiota between Right- and Left-Sided Colorectal Cancer](https://bugsigdb.org/34065545)
 - [Effect of breast milk with or without bacteria on infant gut microbiota](https://bugsigdb.org/35883060)
 - [Association between vaginal microbiome alteration and povidone iodine use during delivery](https://bugsigdb.org/37978422)
+- [Gut microbiota signatures associated with lithium treatment and clinical response in patients with bipolar disorder](https://bugsigdb.org/Fmicb.2026.1839847)
 ---
 
 ## 🔬 My Interests
