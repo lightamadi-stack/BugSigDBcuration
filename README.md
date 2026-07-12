@@ -74,7 +74,7 @@ I contribute by:
 - [Effect of breast milk with or without bacteria on infant gut microbiota](https://bugsigdb.org/35883060)
 - [Association between vaginal microbiome alteration and povidone iodine use during delivery](https://bugsigdb.org/37978422)
 - [Gut microbiota signatures associated with lithium treatment and clinical response in patients with bipolar disorder](https://bugsigdb.org/Fmicb.2026.1839847)
-- [An exercise-associated gut microbiota signature enhances endurance performance: A study combining a human cohort and a mice FMT model](https://bugsigdb.org/42384640)
+
 ---
 
 ## 🔬 My Interests
