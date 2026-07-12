@@ -70,6 +70,11 @@ I contribute by:
 - [Oral Microbiota Alterations and Potential Salivary Biomarkers in Colorectal Cancer: A Next-Generation Sequencing Study](https://bugsigdb.org/41599027)
 - [Metagenomic Signatures of Colorectal Cancer in the Jordanian Population: A Regional Case-Control Analysis Using 16S rRNA Profiling](https://bugsigdb.org/40871467)
 - [Alterations in co-abundant bacteriome in colorectal cancer and its persistence after surgery: a pilot study](https://bugsigdb.org/35701595)
+- [Differences in the On- and Off-Tumor Microbiota between Right- and Left-Sided Colorectal Cancer](https://bugsigdb.org/34065545)
+- [Effect of breast milk with or without bacteria on infant gut microbiota](https://bugsigdb.org/35883060)
+- [Association between vaginal microbiome alteration and povidone iodine use during delivery](https://bugsigdb.org/37978422)
+- [Gut microbiota signatures associated with lithium treatment and clinical response in patients with bipolar disorder](https://bugsigdb.org/Fmicb.2026.1839847)
+- [An exercise-associated gut microbiota signature enhances endurance performance: A study combining a human cohort and a mice FMT model](https://bugsigdb.org/42384640)
 
 ---
 
