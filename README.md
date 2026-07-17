@@ -75,6 +75,7 @@ I contribute by:
 - [Association between vaginal microbiome alteration and povidone iodine use during delivery](https://bugsigdb.org/37978422)
 - [Gut microbiota signatures associated with lithium treatment and clinical response in patients with bipolar disorder](https://bugsigdb.org/Fmicb.2026.1839847)
 - [An exercise-associated gut microbiota signature enhances endurance performance: A study combining a human cohort and a mice FMT model](https://bugsigdb.org/42384640)
+- [Long lasting gut microbiome and fecal metabolome alterations after colorectal adenoma removal and their relationship to colorectal cancer](https://bugsigdb.org/42202778)
 
 ---
 
