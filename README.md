@@ -76,6 +76,7 @@ I contribute by:
 - [Gut microbiota signatures associated with lithium treatment and clinical response in patients with bipolar disorder](https://bugsigdb.org/Fmicb.2026.1839847)
 - [An exercise-associated gut microbiota signature enhances endurance performance: A study combining a human cohort and a mice FMT model](https://bugsigdb.org/42384640)
 - [Long lasting gut microbiome and fecal metabolome alterations after colorectal adenoma removal and their relationship to colorectal cancer](https://bugsigdb.org/42202778)
+- [Study of the Relationship between Microbiome and Colorectal Cancer Susceptibility Using 16SrRNA Sequencing](https://bugsigdb.org/32083132)
 
 ---
 
