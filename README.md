@@ -77,6 +77,7 @@ I contribute by:
 - [An exercise-associated gut microbiota signature enhances endurance performance: A study combining a human cohort and a mice FMT model](https://bugsigdb.org/42384640)
 - [Long lasting gut microbiome and fecal metabolome alterations after colorectal adenoma removal and their relationship to colorectal cancer](https://bugsigdb.org/42202778)
 - [Study of the Relationship between Microbiome and Colorectal Cancer Susceptibility Using 16SrRNA Sequencing](https://bugsigdb.org/32083132)
+- [The gut microbiota in adults with cystic fibrosis compared to colorectal cancer](https://bugsigdb.org/38104000)
 
 ---
 
