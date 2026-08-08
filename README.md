@@ -79,6 +79,7 @@ I contribute by:
 - [Study of the Relationship between Microbiome and Colorectal Cancer Susceptibility Using 16SrRNA Sequencing](https://bugsigdb.org/32083132)
 - [The gut microbiota in adults with cystic fibrosis compared to colorectal cancer](https://bugsigdb.org/38104000)
 - [A pilot study of gut mucosal and faecal microbiota in rectal cancer: associations with histological response and adverse events following preoperative chemoradiotherapy](https://bugsigdb.org/40312795)
+- [Gut microbiome of Moroccan colorectal cancer patients](https://bugsigdb.org/29687353)
 
 ---
 
