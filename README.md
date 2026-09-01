@@ -83,6 +83,7 @@ I contribute by:
 - [Bioconversion variation of ginsenoside CK mediated by human gut microbiota from healthy volunteers and colorectal cancer patients](https://bugsigdb.org/33731196)
 - [Colon Cancer Microbiome Landscaping: Differences in Right- and Left-Sided Colon Cancer and a Tumor Microbiome-Ileal Microbiome Association](https://bugsigdb.org/36834671)
 - [Gut microbiota signatures and predictive model of KPS in advanced colorectal cancer patients](https://bugsigdb.org/41715242)
+- [Potential Pathogenic Bacteria in Seminal Microbiota of Patients with Different Types of Dysspermatism](https://bugsigdb.org/32327694)
 
 ---
 
