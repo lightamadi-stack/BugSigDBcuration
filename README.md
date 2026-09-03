@@ -85,6 +85,7 @@ I contribute by:
 - [Gut microbiota signatures and predictive model of KPS in advanced colorectal cancer patients](https://bugsigdb.org/41715242)
 - [Potential Pathogenic Bacteria in Seminal Microbiota of Patients with Different Types of Dysspermatism](https://bugsigdb.org/32327694)
 - [Bacterial taxa associated with lung cancer cases in Southeast Asians: a pilot case-control study](https://bugsigdb.org/41961381)
+- [Gut microbiome composition and metabolic activity in women with diverticulitis](https://bugsigdb.org/38684664)
 
 ---
 
