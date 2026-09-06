@@ -86,6 +86,7 @@ I contribute by:
 - [Potential Pathogenic Bacteria in Seminal Microbiota of Patients with Different Types of Dysspermatism](https://bugsigdb.org/32327694)
 - [Bacterial taxa associated with lung cancer cases in Southeast Asians: a pilot case-control study](https://bugsigdb.org/41961381)
 - [Gut microbiome composition and metabolic activity in women with diverticulitis](https://bugsigdb.org/38684664)
+- [Metagenomic analysis of healthy and diseased peri-implant microbiome under different periodontal conditions: a cross-sectional study](https://bugsigdb.org/38233815)
 
 ---
 
