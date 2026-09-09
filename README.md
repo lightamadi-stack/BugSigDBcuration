@@ -87,6 +87,7 @@ I contribute by:
 - [Bacterial taxa associated with lung cancer cases in Southeast Asians: a pilot case-control study](https://bugsigdb.org/41961381)
 - [Gut microbiome composition and metabolic activity in women with diverticulitis](https://bugsigdb.org/38684664)
 - [Metagenomic analysis of healthy and diseased peri-implant microbiome under different periodontal conditions: a cross-sectional study](https://bugsigdb.org/38233815)
+- [Integrating gut microbiome and neuroplasticity genomics in alcohol use disorder therapy](https://bugsigdb.org/40646629)
 
 ---
 
