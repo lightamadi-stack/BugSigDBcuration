@@ -88,6 +88,7 @@ I contribute by:
 - [Gut microbiome composition and metabolic activity in women with diverticulitis](https://bugsigdb.org/38684664)
 - [Metagenomic analysis of healthy and diseased peri-implant microbiome under different periodontal conditions: a cross-sectional study](https://bugsigdb.org/38233815)
 - [Integrating gut microbiome and neuroplasticity genomics in alcohol use disorder therapy](https://bugsigdb.org/40646629)
+- [A validation for sex differences in gut microbiome of essential hypertension based on cohort analysis](https://bugsigdb.org/41654729)
 
 ---
 
