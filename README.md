@@ -89,6 +89,7 @@ I contribute by:
 - [Metagenomic analysis of healthy and diseased peri-implant microbiome under different periodontal conditions: a cross-sectional study](https://bugsigdb.org/38233815)
 - [Integrating gut microbiome and neuroplasticity genomics in alcohol use disorder therapy](https://bugsigdb.org/40646629)
 - [A validation for sex differences in gut microbiome of essential hypertension based on cohort analysis](https://bugsigdb.org/41654729)
+- [Metagenomic analysis of colonic tissue and stool microbiome in patients with colorectal cancer in a South Asian population](https://bugsigdb.org/39256724)
 
 ---
 
