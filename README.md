@@ -91,6 +91,7 @@ I contribute by:
 - [A validation for sex differences in gut microbiome of essential hypertension based on cohort analysis](https://bugsigdb.org/41654729)
 - [Metagenomic analysis of colonic tissue and stool microbiome in patients with colorectal cancer in a South Asian population](https://bugsigdb.org/39256724)
 - [Deciphering Gut Microbiome in Colorectal Cancer via Robust Learning Methods](https://bugsigdb.org/40282413)
+- [Impact of pig farming activities on the gut microbiome and resistome of farmers: insights from metagenomics and Escherichia coli genomics](https://bugsigdb.org/S40168-026-02522-6)
 
 ---
 
