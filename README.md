@@ -95,6 +95,7 @@ I contribute by:
 - [Shotgun metagenomics of the vaginal microbiome in cervical shortening and preterm birth risk](https://bugsigdb.org/41238729)
 - [Microbiome as Mediator of Diet on Colorectal Cancer Risk: The Role of Vitamin D, Markers of Inflammation and Adipokines](https://bugsigdb.org/33504116)
 - [Tumour microbiomes and Fusobacterium genomics in Vietnamese colorectal cancer patients](https://bugsigdb.org/36307484)
+- [The impact of the COVID-19 pandemic and associated lifestyle changes on early-life microbiome development](https://bugsigdb.org/42057198)
 
 ---
 
