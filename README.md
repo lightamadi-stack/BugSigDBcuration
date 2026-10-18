@@ -98,6 +98,7 @@ I contribute by:
 - [The impact of the COVID-19 pandemic and associated lifestyle changes on early-life microbiome development](https://bugsigdb.org/42057198)
 - [Using 16S rDNA and metagenomic sequencing technology to analyze the fecal microbiome of children with avoidant/restrictive food intake disorder](https://bugsigdb.org/37985845)
 - [Dysbiosis of human gut microbiome in young-onset colorectal cancer](https://bugsigdb.org/34799562)
+- [Pregnancy during COVID 19 pandemic associated with differential gut microbiome composition as compared to pre-pandemic](https://bugsigdb.org/39505949)
 
 ---
 
