@@ -100,6 +100,7 @@ I contribute by:
 - [Dysbiosis of human gut microbiome in young-onset colorectal cancer](https://bugsigdb.org/34799562)
 - [Pregnancy during COVID 19 pandemic associated with differential gut microbiome composition as compared to pre-pandemic](https://bugsigdb.org/39505949)
 - [The impact of in utero HIV exposure on gut microbiota, inflammation, and microbial translocation](https://bugsigdb.org/30657007)
+- [Gut microbiota development, antibiotic resistome, and related perinatal factors in early infancy](https://bugsigdb.org/40742167)
 
 ---
 
