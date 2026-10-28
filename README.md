@@ -99,6 +99,7 @@ I contribute by:
 - [Using 16S rDNA and metagenomic sequencing technology to analyze the fecal microbiome of children with avoidant/restrictive food intake disorder](https://bugsigdb.org/37985845)
 - [Dysbiosis of human gut microbiome in young-onset colorectal cancer](https://bugsigdb.org/34799562)
 - [Pregnancy during COVID 19 pandemic associated with differential gut microbiome composition as compared to pre-pandemic](https://bugsigdb.org/39505949)
+- [The impact of in utero HIV exposure on gut microbiota, inflammation, and microbial translocation](https://bugsigdb.org/30657007)
 
 ---
 
