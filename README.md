@@ -104,6 +104,7 @@ I contribute by:
 - [Role of age in mediating the association between the vaginal microbiota and preterm birth](https://bugsigdb.org/40391892)
 - [Microbiome Analysis of More Than 2,000 NHS Bowel Cancer Screening Programme Samples Shows the Potential to Improve Screening Accuracy](https://bugsigdb.org/33658300)
 - [Alteration of gut microbiota associated with hypertension in children](https://bugsigdb.org/40340772)
+- [The colorectal cancer-associated faecal microbiome of developing countries resembles that of developed countries](https://bugsigdb.org/33593386)
 
 ---
 
