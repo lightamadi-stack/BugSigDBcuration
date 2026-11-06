@@ -106,6 +106,7 @@ I contribute by:
 - [Alteration of gut microbiota associated with hypertension in children](https://bugsigdb.org/40340772)
 - [The colorectal cancer-associated faecal microbiome of developing countries resembles that of developed countries](https://bugsigdb.org/33593386)
 - [Leveraging existing 16S rRNA gene surveys to decipher microbial signatures and dysbiosis in cervical carcinogenesis](https://bugsigdb.org/38773342)
+- [Mouth-to-gut microbial transmission signatures enable robust, non-invasive diagnosis of gastrointestinal cancers](https://bugsigdb.org/42624114)
 
 
 ---
