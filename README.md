@@ -105,7 +105,6 @@ I contribute by:
 - [Microbiome Analysis of More Than 2,000 NHS Bowel Cancer Screening Programme Samples Shows the Potential to Improve Screening Accuracy](https://bugsigdb.org/33658300)
 - [Alteration of gut microbiota associated with hypertension in children](https://bugsigdb.org/40340772)
 - [The colorectal cancer-associated faecal microbiome of developing countries resembles that of developed countries](https://bugsigdb.org/33593386)
-- [Leveraging existing 16S rRNA gene surveys to decipher microbial signatures and dysbiosis in cervical carcinogenesis](https://bugsigdb.org/38773342)
 
 ---
 
