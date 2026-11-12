@@ -108,6 +108,7 @@ I contribute by:
 - [Leveraging existing 16S rRNA gene surveys to decipher microbial signatures and dysbiosis in cervical carcinogenesis](https://bugsigdb.org/38773342)
 - [Mouth-to-gut microbial transmission signatures enable robust, non-invasive diagnosis of gastrointestinal cancers](https://bugsigdb.org/42624114)
 - [Comprehensive cross-cohort analysis reveals global gut microbiome signatures of celiac disease](https://bugsigdb.org/42098439)
+- [Factors influencing the infant gut microbiome at age 3-6 months: Findings from the ethnically diverse Vitamin D Antenatal Asthma Reduction Trial (VDAART)](https://bugsigdb.org/27746239)
 
 
 ---
